@@ -26,7 +26,7 @@ export function createDOM(node: VNode | string): Node {
 
     const isEventHandler = name.startsWith("on");
     if (isEventHandler) {
-      const eventType = name.toLowerCase().substring(2);
+      const eventType = name.replace(/^on/, "").toLowerCase();
       return element.addEventListener(eventType, value);
     }
 
@@ -43,26 +43,26 @@ export function createElement(
   props: Props,
   ...children: (VNode | string)[]
 ) {
-  props = props || {};
+  const copiedProps = props ?? {};
 
   const isFunctionalComponent = typeof tag === "function";
+  const hasChildren = children.length > 0;
 
   if (isFunctionalComponent) {
-    if (children.length > 0) {
+    if (hasChildren) {
       return tag({
         ...props,
         children: children.length === 1 ? children[0] : children,
       });
-    } else {
-      return tag(props);
     }
-  } else {
-    return {
-      tag,
-      props,
-      children,
-    };
+    return tag(props);
   }
+
+  return {
+    tag,
+    props: copiedProps,
+    children,
+  };
 }
 
 export function render(vdom: VNode, container: HTMLElement) {
