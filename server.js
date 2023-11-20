@@ -4,17 +4,7 @@ const { exec } = require("child_process");
 
 const app = express();
 
-app.use(express.static(path.resolve(__dirname, "dist", "static")));
-
-app.get("/main.js", (req, res) => {
-  console.log("request");
-  res.sendFile(path.resolve(__dirname, "dist", "main.js"));
-});
-
-app.get("/main.css", (req, res) => {
-  console.log("request");
-  res.sendFile(path.resolve(__dirname, "dist", "main.css"));
-});
+app.use(express.static(path.resolve(__dirname, "dist")));
 
 app.get("/*", (req, res) => {
   console.log("request");
