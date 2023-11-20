@@ -1,8 +1,12 @@
 /* @jsx createElement */
 import { NotFound } from "..";
-import { createElement, render } from "../render";
+import { VNode, createElement, render } from "../render";
 import { routes } from "./routes";
 import { isSamePath } from "../utils/isSamePath";
+
+interface Params {
+  [key: string]: string;
+}
 
 export const navigateTo = (url: string) => {
   const samePath = isSamePath(location.pathname, url);
@@ -16,23 +20,57 @@ export const navigateTo = (url: string) => {
   router();
 };
 
-export const router = async () => {
-  const matchedRoutes = routes.map((route) => {
-    return {
-      route,
-      isMatch: isSamePath(location.pathname, route.path),
-    };
-  });
+const findMatchedRouteAndParams = (routes) => {
+  const currentPath = location.pathname;
 
-  const matchedRoute = matchedRoutes.find(
-    (matchedRoute) => matchedRoute.isMatch
-  );
+  for (const route of routes) {
+    const routeSegments = route.path.split("/");
+    const currentPathSegments = currentPath.split("/");
 
-  const rootElement = document.getElementById("root");
-  if (rootElement) {
-    rootElement.innerHTML = "";
-    render(matchedRoute ? matchedRoute.route.view() : NotFound, rootElement);
+    if (routeSegments.length !== currentPathSegments.length) {
+      continue;
+    }
+
+    const params: Params = {};
+    const isMatch = routeSegments.every((segment: string, index: number) => {
+      const isDynamicSegment = segment.startsWith(":");
+      if (isDynamicSegment) {
+        const paramName = segment.replace(/^:/, "");
+        params[paramName] = currentPathSegments[index];
+        return true;
+      }
+      return segment === currentPathSegments[index];
+    });
+
+    if (isMatch) {
+      return { route, params };
+    }
   }
+
+  return null;
+};
+
+const renderView = (view: () => VNode, container: HTMLElement) => {
+  container.innerHTML = "";
+  render(view(), container);
+};
+
+export const router = () => {
+  const rootElement = document.getElementById("root");
+  if (!rootElement) return;
+
+  const matched = findMatchedRouteAndParams(routes);
+  if (matched) {
+    return renderView(matched.route.view, rootElement);
+  }
+
+  renderView(NotFound, rootElement);
+};
+
+export const useParams = () => {
+  const matched = findMatchedRouteAndParams(routes);
+
+  return matched ? matched.params : {};
 };
 
 export const addLinkEventListeners = () => {

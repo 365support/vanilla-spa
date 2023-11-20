@@ -1,6 +1,7 @@
 /* @jsx createElement */
 import { createElement } from "./render";
 import styles from "./main.module.css";
+import { useParams } from "./routes";
 
 interface TitleProps {
   children: React.ReactNode;
@@ -39,3 +40,10 @@ export function App() {
 export const First = () => <h1>First</h1>;
 export const Second = () => <h1>Second</h1>;
 export const NotFound = () => <h1>NotFound</h1>;
+
+export const SecondDetail = () => {
+  const param = useParams();
+  console.log(param);
+
+  return <h1>Second Detail</h1>;
+};
