@@ -5,4 +5,5 @@ export const routes = [
   { path: "/first", view: First },
   { path: "/second", view: Second },
   { path: "/second/:id", view: SecondDetail },
+  { path: "/123", view: First },
 ];
