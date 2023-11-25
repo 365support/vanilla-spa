@@ -9,7 +9,11 @@
     "moduleResolution": "node",
     "outDir": "./dist",
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "utils": ["src/utils"]
+    }
   },
   "include": ["./src/**/*", "./global.d.ts"]
 }

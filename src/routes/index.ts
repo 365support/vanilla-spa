@@ -2,7 +2,7 @@
 import { NotFound } from "..";
 import { VNode, createElement, render } from "../render";
 import { routes } from "./routes";
-import { isSamePath } from "../utils/isSamePath";
+import { isEnglish, isSamePath } from "utils";
 
 interface Params {
   [key: string]: string;
@@ -34,9 +34,12 @@ const findMatchedRouteAndParams = (routes) => {
     const params: Params = {};
     const isMatch = routeSegments.every((segment: string, index: number) => {
       const isDynamicSegment = segment.startsWith(":");
+      const normalizedSegment = segment.replace(/^:/, "");
+
+      if (!isEnglish(normalizedSegment)) return false;
+
       if (isDynamicSegment) {
-        const paramName = segment.replace(/^:/, "");
-        params[paramName] = currentPathSegments[index];
+        params[normalizedSegment] = currentPathSegments[index];
         return true;
       }
       return segment === currentPathSegments[index];
