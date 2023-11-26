@@ -4,12 +4,12 @@ import styles from "./main.module.css";
 import { useParams } from "./routes";
 
 interface TitleProps {
-  children: React.ReactNode;
+  children: Node;
 }
 
 interface ItemProps {
-  children: React.ReactNode;
-  onClick?: React.MouseEventHandler<HTMLLIElement>;
+  children: Node | string;
+  onClick?: (event: MouseEvent) => void;
   className?: string;
 }
 
