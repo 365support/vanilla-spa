@@ -1,12 +1,10 @@
-type Props = Record<string, any>;
-
 export type VNode = {
-  tag: keyof HTMLElementTagNameMap | ((props: Props) => VNode);
-  props: Props;
+  tag: JSX.Tag | JSX.Component;
+  props: JSX.Props;
   children: (VNode | string)[];
 };
 
-export function createDOM(node: VNode | string): Node {
+export function createDOM(node: VNode | string) {
   if (typeof node === "string") {
     return document.createTextNode(node);
   }
@@ -39,8 +37,8 @@ export function createDOM(node: VNode | string): Node {
 }
 
 export function createElement(
-  tag: keyof HTMLElementTagNameMap | ((props: Props) => VNode),
-  props: Props,
+  tag: JSX.Tag | JSX.Component,
+  props: JSX.Props,
   ...children: (VNode | string)[]
 ) {
   const copiedProps = props ?? {};
