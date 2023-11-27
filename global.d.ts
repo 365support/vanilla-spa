@@ -21,4 +21,8 @@ declare namespace JSX {
   interface Component {
     (properties?: Props, children?: (VNode | string)[]): VNode | string;
   }
+
+  interface ElementChildrenAttribute {
+    children: {};
+  }
 }

@@ -4,11 +4,11 @@ import styles from "./main.module.css";
 import { useParams } from "./routes";
 
 interface TitleProps {
-  children: Node;
+  children: string;
 }
 
 interface ItemProps {
-  children: Node | string;
+  children: string;
   onClick?: (event: MouseEvent) => void;
   className?: string;
 }
@@ -25,6 +25,7 @@ export function App() {
   return (
     <div>
       <Title>React 만들기</Title>
+      <Title children={<span>React 만들기</span>} />
       <ul>
         <Item onClick={() => console.log("hi")} className={styles.item}>
           item 1
