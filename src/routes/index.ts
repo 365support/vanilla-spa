@@ -1,7 +1,7 @@
 /* @jsx createElement */
 import { NotFound } from "..";
 import { VNode, createElement, render } from "../render";
-import { routes } from "./routes";
+import { Route, routes } from "./routes";
 import { isEnglish, isSamePath } from "utils";
 
 interface Params {
@@ -20,7 +20,7 @@ export const navigateTo = (url: string) => {
   router();
 };
 
-const findMatchedRouteAndParams = (routes) => {
+const findMatchedRouteAndParams = (routes: Route[]) => {
   const currentPath = location.pathname;
 
   for (const route of routes) {
