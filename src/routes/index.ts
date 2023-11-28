@@ -76,6 +76,16 @@ export const useParams = () => {
   return matched ? matched.params : {};
 };
 
+export const useLocation = () => {
+  const matched = findMatchedRouteAndParams(routes);
+  if (!matched) return { pathname: "", search: {} };
+
+  return {
+    pathname: window.location.pathname,
+    search: matched.params,
+  };
+};
+
 export const addLinkEventListeners = () => {
   const links = document.querySelectorAll("a");
 
