@@ -1,5 +1,5 @@
 import { VNode } from "src/render";
-import { App, First, Second, SecondDetail } from "..";
+import { App, Design, Detail } from "..";
 
 export interface Route {
   path: string;
@@ -8,8 +8,6 @@ export interface Route {
 
 export const routes: Route[] = [
   { path: "/", view: App },
-  { path: "/first", view: First },
-  { path: "/second", view: Second },
-  { path: "/second/:id", view: SecondDetail },
-  { path: "/123", view: First },
+  { path: "/design", view: Design },
+  { path: "/article/:slug", view: Detail },
 ];
