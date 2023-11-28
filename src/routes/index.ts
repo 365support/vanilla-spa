@@ -2,7 +2,7 @@
 import { NotFound } from "..";
 import { VNode, createElement, render } from "../render";
 import { Route, routes } from "./routes";
-import { isEnglish, isSamePath } from "utils";
+import { isEnglish, isSamePath } from "@utils";
 
 interface Params {
   [key: string]: string;
