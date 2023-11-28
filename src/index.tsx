@@ -1,7 +1,9 @@
 /* @jsx createElement */
 import { createElement } from "./render";
 import styles from "./main.module.css";
-import { useParams } from "./routes";
+import { API_URL } from "@constants";
+import { useLocation, useParams } from "./routes";
+import { getArticles, getArticleDetail } from "./api/article";
 
 interface TitleProps {
   children: string;
@@ -22,10 +24,22 @@ function Item({ children, ...props }: ItemProps) {
 }
 
 export function App() {
+  //Todo: 받아온 데이터 반영
+  const data = fetch(`${API_URL.ARTICLES}?categoriesSlug=tech`).then((res) => {
+    return res.json();
+  });
+
+  const posts = getArticles("tech")
+    .then((posts) => {
+      return posts;
+    })
+    .catch((error) => {
+      console.error("Error fetching data:", error);
+    });
+
   return (
     <div>
       <Title>React 만들기</Title>
-      <Title children={<span>React 만들기</span>} />
       <ul>
         <Item onClick={() => console.log("hi")} className={styles.item}>
           item 1
@@ -38,13 +52,25 @@ export function App() {
   );
 }
 
-export const First = () => <h1>First</h1>;
-export const Second = () => <h1>Second</h1>;
-export const NotFound = () => <h1>NotFound</h1>;
+export const Design = () => {
+  const location = useLocation();
+  console.log("location", location);
+  const currentPath = location.pathname.replace(/^\//, "");
 
-export const SecondDetail = () => {
-  const param = useParams();
-  console.log(param);
+  fetch(`${API_URL.ARTICLES}?categoriesSlug=${currentPath}`).then((res) =>
+    res.json()
+  );
 
-  return <h1>Second Detail</h1>;
+  return <h1>Design</h1>;
 };
+
+export const Detail = () => {
+  const param = useParams();
+  console.log("param", param);
+
+  fetch(`${API_URL.ARTICLES_DETAIL}/${param.slug}`).then((res) => res.json());
+
+  return <h1> Detail</h1>;
+};
+
+export const NotFound = () => <h1>NotFound</h1>;
