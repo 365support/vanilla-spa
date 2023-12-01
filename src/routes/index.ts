@@ -2,7 +2,7 @@
 import { NotFound } from "..";
 import { VNode, createElement, render } from "../render";
 import { Route, routes } from "./routes";
-import { isEnglish, isSamePath } from "utils";
+import { isEnglish, isSamePath } from "@utils";
 
 interface Params {
   [key: string]: string;
@@ -74,6 +74,16 @@ export const useParams = () => {
   const matched = findMatchedRouteAndParams(routes);
 
   return matched ? matched.params : {};
+};
+
+export const useLocation = () => {
+  const matched = findMatchedRouteAndParams(routes);
+  if (!matched) return { pathname: "", search: {} };
+
+  return {
+    pathname: window.location.pathname,
+    search: matched.params,
+  };
 };
 
 export const addLinkEventListeners = () => {

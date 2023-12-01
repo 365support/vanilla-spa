@@ -12,7 +12,9 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "utils": ["src/utils"]
+      "@utils": ["src/utils"],
+      "@constants": ["src/constants"],
+      "@data": ["public/data"]
     }
   },
   "include": ["./src/**/*", "./global.d.ts"]
