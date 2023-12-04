@@ -1,76 +1,43 @@
 /* @jsx createElement */
-import { createElement } from "./render";
-import styles from "./main.module.css";
-import { API_URL } from "@constants";
-import { useLocation, useParams } from "./routes";
-import { getArticles, getArticleDetail } from "./api/article";
+import { createElement, render } from "./render";
+import { useLocation } from "./routes";
+import { getArticles } from "./api/article";
+import { Header } from "./components/Layout/Header";
+import { PostsList } from "./components/Post/PostList";
 
-interface TitleProps {
-  children: string;
+let globalState = {
+  postData: null,
+};
+
+function renderApp() {
+  const rootElement = document.getElementById("root");
+  if (!rootElement) return;
+  render(<App postData={globalState.postData} />, rootElement);
 }
 
-interface ItemProps {
-  children: string;
-  onClick?: (event: MouseEvent) => void;
-  className?: string;
-}
+export function App(props) {
+  const location = useLocation();
+  const currentPath = location.pathname.replace(/^\//, "");
 
-function Title({ children }: TitleProps) {
-  return <h1>{children}</h1>;
-}
-
-function Item({ children, ...props }: ItemProps) {
-  return <li {...props}>{children}</li>;
-}
-
-export function App() {
-  //Todo: 받아온 데이터 반영
-  const data = fetch(`${API_URL.ARTICLES}?categoriesSlug=tech`).then((res) => {
-    return res.json();
-  });
-
-  const posts = getArticles("tech")
-    .then((posts) => {
-      return posts;
-    })
-    .catch((error) => {
-      console.error("Error fetching data:", error);
-    });
+  const postData = props?.postData;
+  //TODO: globalState.postData가 차있을 때 renderApp 이 실행되지 않음
+  if (!globalState.postData) {
+    getArticles(currentPath)
+      .then((posts) => {
+        globalState.postData = posts;
+        renderApp();
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+  }
 
   return (
     <div>
-      <Title>React 만들기</Title>
-      <ul>
-        <Item onClick={() => console.log("hi")} className={styles.item}>
-          item 1
-        </Item>
-        <Item>item 2</Item>
-        <Item>item 3</Item>
-      </ul>
-      <img src="https://picsum.photos/200/300" width="200" height="300" />
+      <Header />
+      <PostsList posts={postData} />
     </div>
   );
 }
-
-export const Design = () => {
-  const location = useLocation();
-  console.log("location", location);
-  const currentPath = location.pathname.replace(/^\//, "");
-
-  fetch(`${API_URL.ARTICLES}?categoriesSlug=${currentPath}`).then((res) =>
-    res.json()
-  );
-
-  return <h1>Design</h1>;
-};
-
-export const Detail = () => {
-  const param = useParams();
-  console.log("param", param);
-
-  fetch(`${API_URL.ARTICLES_DETAIL}/${param.slug}`).then((res) => res.json());
-
-  return <h1> Detail</h1>;
-};
 
 export const NotFound = () => <h1>NotFound</h1>;
