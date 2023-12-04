@@ -82,7 +82,7 @@ export const useLocation = () => {
 
   return {
     pathname: window.location.pathname,
-    search: matched.params,
+    params: matched.params,
   };
 };
 
