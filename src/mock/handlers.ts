@@ -1,6 +1,8 @@
 import { http, HttpResponse } from "msw";
-import { techData, designData, articleDetailData } from "@data";
 import { API_MOCK } from "@constants";
+const designData = require("/public/data/design.json");
+const techData = require("/public/data/tech.json");
+const articleDetailData = require("/public/data/articleDetail.json");
 
 const getArticleData = (category: string | null) => {
   switch (category) {
