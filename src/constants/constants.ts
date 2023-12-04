@@ -1,11 +1,23 @@
 export const BASE_URL = "/api";
 
-export const API_URL = {
-  ARTICLES: `${BASE_URL}/articles`,
-  ARTICLES_DETAIL: `${BASE_URL}/article`,
+type ApiUrl = Record<string, string>;
+
+export const API_URL: ApiUrl = {
+  ARTICLES: "/articles",
+  ARTICLES_DETAIL: "/article",
 };
 
-export const API_MOCK = {
-  ARTICLES: API_URL.ARTICLES,
-  ARTICLE_DETAIL: `${API_URL.ARTICLES_DETAIL}/:articleSlug`,
+export const API_MOCK: ApiUrl = {
+  ARTICLES: "/articles",
+  ARTICLE_DETAIL: `/article/:articleSlug`,
 };
+
+const combineBaseUrlWithApiPaths = (baseUrl: string, apiUrl: ApiUrl) => {
+  return Object.entries(apiUrl).reduce((acc: ApiUrl, [key, value]) => {
+    acc[key] = `${baseUrl}${value}`;
+    return acc;
+  }, {});
+};
+
+export const FULL_API_URL = combineBaseUrlWithApiPaths(BASE_URL, API_URL);
+export const FULL_MOCK_API_URL = combineBaseUrlWithApiPaths(BASE_URL, API_MOCK);

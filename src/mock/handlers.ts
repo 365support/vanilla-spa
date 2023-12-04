@@ -1,5 +1,5 @@
 import { http, HttpResponse } from "msw";
-import { API_MOCK } from "@constants";
+import { FULL_MOCK_API_URL } from "@constants";
 const designData = require("/public/data/design.json");
 const techData = require("/public/data/tech.json");
 const articleDetailData = require("/public/data/articleDetail.json");
@@ -34,7 +34,7 @@ const findArticleDetailById = (
 };
 
 export const handlers = [
-  http.get(API_MOCK.ARTICLES, ({ request }) => {
+  http.get(FULL_MOCK_API_URL.ARTICLES, ({ request }) => {
     const data = getDataFromCategoriesSlug(request.url);
     if (!data || data.length === 0) {
       return new HttpResponse("Not found", {
@@ -44,7 +44,7 @@ export const handlers = [
     return HttpResponse.json(data);
   }),
 
-  http.get(API_MOCK.ARTICLE_DETAIL, ({ params }) => {
+  http.get(FULL_MOCK_API_URL.ARTICLE_DETAIL, ({ params }) => {
     const articleDetail = findArticleDetailById(
       params.articleSlug,
       techData.concat(designData)
