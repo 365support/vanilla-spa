@@ -1,0 +1,825 @@
+[
+  {
+    "resultType": "SUCCESS",
+    "error": null,
+    "success": {
+      "page": 1,
+      "pageSize": 50,
+      "count": 34,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 23009,
+          "updatedTime": "2023-11-27T19:55:52+09:00",
+          "createdTime": "2023-10-25T14:40:51+09:00",
+          "category": null,
+          "categories": [
+            {
+              "name": "디자인",
+              "id": 353,
+              "slug": "design",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "독이 되는 레퍼런스 활용법",
+          "subtitle": "매혹적이지만 독이 될 수 있는 레퍼런스. 어떻게 활용하는 것이 좋을까요?",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/assets/homepage/tosstech/og/design-article-15-og.png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": "독이 든 병"
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/assets/homepage/tosstech/og/design-article-15-og.png",
+            "backgroundColor": null,
+            "isFill": true,
+            "imageAlt": "독이 든 병"
+          },
+          "key": "23009",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": true,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-11-27T19:00:00+09:00",
+          "likeCount": 0,
+          "commentBoard": null,
+          "relatedPostTitle": null,
+          "relatedPosts": [],
+          "disclaimer": null,
+          "seoConfig": {
+            "post": 23009,
+            "title": null,
+            "description": "토스에서 킥보드도 빌릴 수 있다는 사실, 알고 계시나요? \n\n킥보드 서비스를 디자인하게 된 제가 제일 먼저 한 일은 무작정 다른 앱을 다운받는 거였어요. 킥보드 앱은 차고 넘쳤고, 10개 정도를 보다 보니 다 비슷하게 생겼더라고요. 그래서 별 의심 없이 화면을 토스답게 바꾸기만 하고 있...",
+            "urlSlug": "23009",
+            "primaryKeyword": null,
+            "relatedKeywords": [],
+            "tags": []
+          },
+          "openGraph": {
+            "title": "독이 되는 레퍼런스 활용법",
+            "description": "매혹적이지만 독이 될 수 있는 레퍼런스. 어떻게 활용하는 것이 좋을까요?",
+            "backgroundColor": "#424242",
+            "imageAlt": "독이 든 병",
+            "imageUrl": "https://static.toss.im/assets/homepage/tosstech/og/design-article-15.png",
+            "imageType": "직접입력"
+          },
+          "relatedPostConfig": null,
+          "editor": {
+            "id": 1273,
+            "name": "장세린",
+            "slug": "serin-jang",
+            "shortDescription": null,
+            "description": "Product Designer",
+            "imageUrl": "https://static.toss.im/assets/toss-tech/serin-jang.png",
+            "url": null,
+            "facebook": null,
+            "twitter": null,
+            "instagram": null,
+            "postCount": 1,
+            "ogConfig": null,
+            "seoConfig": null,
+            "priority": 1000,
+            "isDisplaying": false,
+            "isHomeRecommendation": false
+          },
+          "disclaimerConfig": null,
+          "shortDescription": "토스에서 킥보드도 빌릴 수 있다는 사실, 알고 계시나요? \n\n킥보드 서비스를 디자인하게 된 제가 제일 먼저 한 일은 무작정 다른 앱을 다운받는 거였어요. 킥보드 앱은 차고 넘쳤고, 10개 정도를 보다 보니 다 비슷하게 생겼더라고요. 그래서 별 의심 없이 화면을 토스답게 바꾸기만 하고 있었죠. \n\n‘나 뭐 하고 있는 거지?",
+          "isDisplayingFeedback": true
+        },
+        {
+          "id": 23487,
+          "updatedTime": "2023-11-23T18:30:59+09:00",
+          "createdTime": "2023-11-16T13:45:44+09:00",
+          "category": null,
+          "categories": [
+            {
+              "name": "디자인",
+              "id": 353,
+              "slug": "design",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "효율적인 유저 리서치 환경을 만드는 리서치 플랫폼 팀, 들어보셨나요?",
+          "subtitle": "토스팀에서 팀원들이 사용자를 더 쉽고, 빠르고, 편하게 만날 수 있도록 고군분투하고 있는 ‘리서치 플랫폼 팀’에 대해 소개해 보려고 해요. ",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/illusts/tech-research-platform-og-image.png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": true,
+            "imageAlt": null
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/illusts/tech-research-platform-og-image.png",
+            "backgroundColor": null,
+            "isFill": true,
+            "imageAlt": null
+          },
+          "key": "ux-research-platform",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": true,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-11-23T15:14:00+09:00",
+          "likeCount": 0,
+          "commentBoard": null,
+          "relatedPostTitle": null,
+          "relatedPosts": [],
+          "disclaimer": null,
+          "seoConfig": {
+            "post": 23487,
+            "title": null,
+            "description": "토스팀에서 팀원들이 사용자를 더 쉽고, 빠르고, 편하게 만날 수 있도록 고군분투하고 있는 ‘리서치 플랫폼 팀’에 대해 소개해 보려고 해요.",
+            "urlSlug": "ux-research-platform",
+            "primaryKeyword": {
+              "id": 13989,
+              "content": "리서치 플랫폼 팀",
+              "wordType": "SEO_KEYWORD"
+            },
+            "relatedKeywords": [
+              {
+                "id": 13971,
+                "content": "ux리서치",
+                "wordType": "SEO_KEYWORD"
+              },
+              {
+                "id": 13977,
+                "content": "유저리서치",
+                "wordType": "SEO_KEYWORD"
+              }
+            ],
+            "tags": []
+          },
+          "openGraph": {
+            "title": "효율적인 유저 리서치 환경을 만드는 리서치 플랫폼팀, 들어보셨나요?",
+            "description": "토스팀에서 팀원들이 사용자를 더 쉽고, 빠르고, 편하게 만날 수 있도록 고군분투하고 있는 ‘리서치 플랫폼 팀’에 대해 소개해 보려고 해요.",
+            "backgroundColor": "#424242",
+            "imageAlt": null,
+            "imageUrl": "https://static.toss.im/illusts/tech-research-platform-og-image.png",
+            "imageType": "썸네일 이미지"
+          },
+          "relatedPostConfig": null,
+          "editor": {
+            "id": 1889,
+            "name": "최정은",
+            "slug": "jeongeun-choe",
+            "shortDescription": "UX Research Operation Manager",
+            "description": "-",
+            "imageUrl": "https://static.toss.im/assets/toss-tech/IMG_0932.jpg",
+            "url": null,
+            "facebook": null,
+            "twitter": null,
+            "instagram": null,
+            "postCount": 1,
+            "ogConfig": null,
+            "seoConfig": null,
+            "priority": 1000,
+            "isDisplaying": false,
+            "isHomeRecommendation": false
+          },
+          "disclaimerConfig": null,
+          "shortDescription": "지난 심플리시티23에서 많은 분이 UX리서치, 특히 “사용자를 어떻게 만나는지”에 대해 궁금해하셨더라고요. \n💬 Simplicity23 '무엇이든 물어보세요' >\n토스팀에서 팀원들이 사용자를 더 쉽고, 빠르고, 편하게 만날 수 있도록 고군분투하고 있는 ‘리서치 플랫폼 팀’에 대해 소개해 보려고 해요. \n\nQ. 리서치 플랫",
+          "isDisplayingFeedback": true
+        },
+        {
+          "id": 22690,
+          "updatedTime": "2023-09-14T16:07:48+09:00",
+          "createdTime": "2023-09-12T12:10:44+09:00",
+          "category": null,
+          "categories": [
+            {
+              "name": "디자인",
+              "id": 353,
+              "slug": "design",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "완성 없는 이야기, 가입 과정 개선",
+          "subtitle": "가입 완료율을 높이기 위해 고민하고 시도했던 것들을 이야기 해요.",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/simplicity23/graphics/sim23-signup-cover.png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/simplicity23/graphics/sim23-signup-cover.png",
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "key": "signup",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": false,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-09-12T22:44:00+09:00",
+          "likeCount": 0,
+          "commentBoard": null,
+          "relatedPostTitle": null,
+          "relatedPosts": [],
+          "disclaimer": null,
+          "seoConfig": {
+            "post": 22690,
+            "title": null,
+            "description": "제품 성장 과정에 따라 적절한 UX가 다를 수 있다는 사실, 알고 계셨나요? 토스의 가입 과정은 테크 블로그에 첫 번째로 소개되었을 만큼 잘 만들었다고 자부하고 있었는데, 데이터를 확인해 보니 가입 완료율이 생각보다 낮았어요.토스가 성장하면서 가입하는 주요 연령대가 바뀌었기 때문이에요....",
+            "urlSlug": "signup",
+            "primaryKeyword": {
+              "id": 11715,
+              "content": "토스심플리시티",
+              "wordType": "SEO_KEYWORD"
+            },
+            "relatedKeywords": [],
+            "tags": [
+              {
+                "id": 5408,
+                "content": "토스디자인",
+                "wordType": "TAG"
+              },
+              {
+                "id": 12644,
+                "content": "토스디자이너",
+                "wordType": "TAG"
+              },
+              {
+                "id": 12929,
+                "content": "토스프로덕트디자인",
+                "wordType": "TAG"
+              },
+              {
+                "id": 12931,
+                "content": "productdesign",
+                "wordType": "TAG"
+              }
+            ]
+          },
+          "openGraph": {
+            "title": "완성 없는 이야기, 가입 과정 개선",
+            "description": "제품 성장 과정에 따라 적절한 UX가 다를 수 있다는 사실, 알고 계셨나요? 토스의 가입 과정은 테크 블로그에 첫 번째로 소개되었을 만큼 잘 만들었다고 자부하고 있었는데, 데이터를 확인해 보니 가입 완료율이 생각보다 낮았어요.토스가 성장하면서 가입하는 주요 연령대가 바뀌었기 때문이에요....",
+            "backgroundColor": "#424242",
+            "imageAlt": null,
+            "imageUrl": "https://static.toss.im/simplicity23/graphics/sim23-signup-og.png",
+            "imageType": "직접입력"
+          },
+          "relatedPostConfig": null,
+          "editor": {
+            "id": 1051,
+            "name": "임경우",
+            "slug": "gyeongwoo-lim",
+            "shortDescription": null,
+            "description": "-",
+            "imageUrl": "https://static.toss.im/photos/임경우.png",
+            "url": null,
+            "facebook": null,
+            "twitter": null,
+            "instagram": null,
+            "postCount": 1,
+            "ogConfig": null,
+            "seoConfig": null,
+            "priority": 1000,
+            "isDisplaying": false,
+            "isHomeRecommendation": false
+          },
+          "disclaimerConfig": null,
+          "shortDescription": "제품 성장 과정에 따라 적절한 UX가 다를 수 있다는 사실, 알고 계셨나요? 토스의 가입 과정은 테크 블로그에 첫 번째로 소개되었을 만큼 잘 만들었다고 자부하고 있었는데, 데이터를 확인해 보니 가입 완료율이 생각보다 낮았어요.\n토스가 성장하면서 가입하는 주요 연령대가 바뀌었기 때문이에요. 가입 유저의 대부분이 2030이었",
+          "isDisplayingFeedback": true
+        },
+        {
+          "id": 22605,
+          "updatedTime": "2023-09-07T14:58:40+09:00",
+          "createdTime": "2023-09-05T14:55:51+09:00",
+          "category": null,
+          "categories": [
+            {
+              "name": "디자인",
+              "id": 353,
+              "slug": "design",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "인터랙션, 꼭 넣어야 해요?",
+          "subtitle": "빠른 속도를 중요시하는 토스에서 어떻게 팀원들을 인터랙션에 공감하게 하고 슬릭한 제품을 만들어나갈 수 있었는지 소개할게요.",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/simplicity23/graphics/sim23-interaction-cover.png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/simplicity23/graphics/sim23-interaction-cover.png",
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "key": "interaction",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": false,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-09-07T14:27:00+09:00",
+          "likeCount": 0,
+          "commentBoard": null,
+          "relatedPostTitle": null,
+          "relatedPosts": [],
+          "disclaimer": null,
+          "seoConfig": {
+            "post": 22605,
+            "title": null,
+            "description": "제품을 인터랙티브하게 개선하면 경험이 더 좋아진다는 것은 모두 알지만, 인터랙션을 구현하는 비용 때문에 엄두가 나지 않기도 하는데요. 인터랙션 디자이너가 토스팀에 합류했을 때도 마찬가지였어요. 빠른 속도를 중요시하는 토스에서 어떻게 팀원들을 인터랙션에 대해 공감하게 하고 슬릭한 제품을 ...",
+            "urlSlug": "interaction",
+            "primaryKeyword": {
+              "id": 13044,
+              "content": "토스인터랙션",
+              "wordType": "SEO_KEYWORD"
+            },
+            "relatedKeywords": [
+              {
+                "id": 11715,
+                "content": "토스심플리시티",
+                "wordType": "SEO_KEYWORD"
+              },
+              {
+                "id": 11719,
+                "content": "토스디자인",
+                "wordType": "SEO_KEYWORD"
+              },
+              {
+                "id": 13047,
+                "content": "인터랙션디자이너",
+                "wordType": "SEO_KEYWORD"
+              },
+              {
+                "id": 13049,
+                "content": "interaction",
+                "wordType": "SEO_KEYWORD"
+              },
+              {
+                "id": 13050,
+                "content": "토스디자인시스템",
+                "wordType": "SEO_KEYWORD"
+              }
+            ],
+            "tags": []
+          },
+          "openGraph": {
+            "title": "인터랙션, 꼭 넣어야 해요?",
+            "description": "제품을 인터랙티브하게 개선하면 경험이 더 좋아진다는 것은 모두 알지만, 인터랙션을 구현하는 비용 때문에 엄두가 나지 않기도 하는데요. 인터랙션 디자이너가 토스팀에 합류했을 때도 마찬가지였어요. 빠른 속도를 중요시하는 토스에서 어떻게 팀원들을 인터랙션에 대해 공감하게 하고 슬릭한 제품을 ...",
+            "backgroundColor": "#424242",
+            "imageAlt": null,
+            "imageUrl": "https://static.toss.im/simplicity23/graphics/sim23-interaction-og.png",
+            "imageType": "직접입력"
+          },
+          "relatedPostConfig": null,
+          "editor": {
+            "id": 1049,
+            "name": "박연주/김지혜",
+            "slug": "yeonju-jihye",
+            "shortDescription": "Interaction Designer",
+            "description": "-",
+            "imageUrl": "https://static.toss.im/photos/jhyj.png",
+            "url": null,
+            "facebook": null,
+            "twitter": null,
+            "instagram": null,
+            "postCount": 1,
+            "ogConfig": null,
+            "seoConfig": null,
+            "priority": 1000,
+            "isDisplaying": false,
+            "isHomeRecommendation": false
+          },
+          "disclaimerConfig": null,
+          "shortDescription": "제품을 인터랙티브하게 개선하면 경험이 더 좋아진다는 것은 모두 알지만, 인터랙션을 구현하는 비용 때문에 엄두가 나지 않기도 하는데요. 인터랙션 디자이너가 토스팀에 합류했을 때도 마찬가지였어요. 빠른 속도를 중요시하는 토스에서 어떻게 팀원들을 인터랙션에 대해 공감하게 하고 슬릭한 제품을 만들어나갈 수 있었는지 소개할게요.\n",
+          "isDisplayingFeedback": true
+        },
+        {
+          "id": 22546,
+          "updatedTime": "2023-10-05T14:55:32+09:00",
+          "createdTime": "2023-08-30T11:11:01+09:00",
+          "category": null,
+          "categories": [
+            {
+              "name": "디자인",
+              "id": 353,
+              "slug": "design",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "크고 복잡한 제품, 과감하게 갈아엎기",
+          "subtitle": "디자이너들도 어떻게 하면 빠른 속도를 내며 전체적인 경험을 맞출 수 있을지 매 순간 고민하고 있어요. ",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/career-resource/sim23-mydoc-cover.png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/career-resource/sim23-mydoc-cover.png",
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "key": "mydoc",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": true,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-09-03T22:58:00+09:00",
+          "likeCount": 0,
+          "commentBoard": null,
+          "relatedPostTitle": null,
+          "relatedPosts": [],
+          "disclaimer": null,
+          "seoConfig": {
+            "post": 22546,
+            "title": null,
+            "description": "장기적으로 진행되는 큰 규모의 사업 제품을 맡은 디자이너라면 한 번쯤 이런 경험이 있을 것 같아요. 빠른 속도를 위해 작은 실험을 중심으로 제품을 출시하고 개선하는 애자일 조직은 어떨까요? 사업과 제품의 끝그림을 처음부터 고려하고 있을까요? 토스는 어느덧 4개의 계열사, 100여 개 이...",
+            "urlSlug": "mydoc",
+            "primaryKeyword": {
+              "id": 12928,
+              "content": "토스프로덕트디자인",
+              "wordType": "SEO_KEYWORD"
+            },
+            "relatedKeywords": [
+              {
+                "id": 3543,
+                "content": "토스",
+                "wordType": "SEO_KEYWORD"
+              },
+              {
+                "id": 11719,
+                "content": "토스디자인",
+                "wordType": "SEO_KEYWORD"
+              },
+              {
+                "id": 12645,
+                "content": "토스디자이너",
+                "wordType": "SEO_KEYWORD"
+              },
+              {
+                "id": 12930,
+                "content": "productdesign",
+                "wordType": "SEO_KEYWORD"
+              },
+              {
+                "id": 12933,
+                "content": "productprinciple",
+                "wordType": "SEO_KEYWORD"
+              }
+            ],
+            "tags": []
+          },
+          "openGraph": {
+            "title": "크고 복잡한 제품, 과감하게 갈아엎기",
+            "description": "장기적으로 진행되는 큰 규모의 사업 제품을 맡은 디자이너라면 한 번쯤 이런 경험이 있을 것 같아요. 빠른 속도를 위해 작은 실험을 중심으로 제품을 출시하고 개선하는 애자일 조직은 어떨까요? 사업과 제품의 끝그림을 처음부터 고려하고 있을까요? 토스는 어느덧 4개의 계열사, 100여 개 이...",
+            "backgroundColor": "#424242",
+            "imageAlt": null,
+            "imageUrl": "https://static.toss.im/career-resource/sim23-mydoc-og.png",
+            "imageType": "직접입력"
+          },
+          "relatedPostConfig": null,
+          "editor": {
+            "id": 1048,
+            "name": "이지윤",
+            "slug": "jiyoon-lee",
+            "shortDescription": "Product Designer",
+            "description": "-",
+            "imageUrl": "https://static.toss.im/photos/E01JAGTHP8R-U01JA1049BQ-93561329024d-512.png",
+            "url": null,
+            "facebook": null,
+            "twitter": null,
+            "instagram": null,
+            "postCount": 1,
+            "ogConfig": null,
+            "seoConfig": null,
+            "priority": 1000,
+            "isDisplaying": false,
+            "isHomeRecommendation": false
+          },
+          "disclaimerConfig": null,
+          "shortDescription": "장기적으로 진행되는 큰 규모의 사업 제품을 맡은 디자이너라면 한 번쯤 이런 경험이 있을 것 같아요. \n디자이너 : 지금 있는 기능을 모으면 이런 모습일 것 같아요. \n팀원 1 : 그런데 이 사업도 지금 진행 중이고, 이 기능이랑 서비스도 곧 붙이게 될 것 같아요. 이것들이 들어갈 곳이 고려되어야 할 것 같은데… \n디자이너",
+          "isDisplayingFeedback": true
+        },
+        {
+          "id": 22486,
+          "updatedTime": "2023-08-31T13:49:51+09:00",
+          "createdTime": "2023-08-23T15:23:35+09:00",
+          "category": null,
+          "categories": [
+            {
+              "name": "디자인",
+              "id": 353,
+              "slug": "design",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "30대 디자이너가 10대 전용 카드를 만든다면?",
+          "subtitle": "'요즘 10대는 어떤 카드를 좋아할까?', '30대인 내가 10대 친구들이 좋아하는 디자인을 할 수 있을까?' 청소년 전용 카드를 만들며 맞닥뜨렸던 혹독한 진실과, 그 과정에서 얻은 인사이트를 공유하고 싶어요.",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/assets/toss-tech/sim23-uss.png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": true,
+            "imageAlt": "토스 10대 전용카드 유스카드"
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/assets/toss-tech/sim23-uss.png",
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": "토스 10대 전용카드 유스카드"
+          },
+          "key": "uss-card",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": true,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-08-23T15:25:00+09:00",
+          "likeCount": 0,
+          "commentBoard": null,
+          "relatedPostTitle": null,
+          "relatedPosts": [],
+          "disclaimer": null,
+          "seoConfig": {
+            "post": 22486,
+            "title": null,
+            "description": "토스에는 어린이, 청소년 전용 카드가 있다는 거 알고 계셨나요? 출시된 지 1년 반도 지나지 않아 벌써 130만 장 넘게 발급되었어요. 토스 유스카드 (USS)라는 이름으로 세상에 나온 이 카드는 토스의 유저 중 틴즈 타겟, 즉 만 7세부터 만 16세까지만 이용이 가능한 충전식 선불카드...",
+            "urlSlug": "uss-card",
+            "primaryKeyword": {
+              "id": 8246,
+              "content": "청소년",
+              "wordType": "SEO_KEYWORD"
+            },
+            "relatedKeywords": [
+              {
+                "id": 7561,
+                "content": "유스카드",
+                "wordType": "SEO_KEYWORD"
+              },
+              {
+                "id": 7571,
+                "content": "토스 청소년",
+                "wordType": "SEO_KEYWORD"
+              },
+              {
+                "id": 8675,
+                "content": "청소년 체크카드",
+                "wordType": "SEO_KEYWORD"
+              },
+              {
+                "id": 12731,
+                "content": "토스 브랜딩",
+                "wordType": "SEO_KEYWORD"
+              }
+            ],
+            "tags": [
+              {
+                "id": 7560,
+                "content": "유스카드",
+                "wordType": "TAG"
+              }
+            ]
+          },
+          "openGraph": {
+            "title": "30대 디자이너가 10대 전용 카드를 만든다면?",
+            "description": "토스에는 어린이, 청소년 전용 카드가 있다는 거 알고 계셨나요? 출시된 지 1년 반도 지나지 않아 벌써 130만 장 넘게 발급되었어요. 토스 유스카드 (USS)라는 이름으로 세상에 나온 이 카드는 토스의 유저 중 틴즈 타겟, 즉 만 7세부터 만 16세까지만 이용이 가능한 충전식 선불카드...",
+            "backgroundColor": "#424242",
+            "imageAlt": "토스 청소년 전용카드 유스카드",
+            "imageUrl": "https://static.toss.im/assets/toss-tech/sim23-uss-og.png",
+            "imageType": "직접입력"
+          },
+          "relatedPostConfig": null,
+          "editor": {
+            "id": 1043,
+            "name": "심석용",
+            "slug": "sqd",
+            "shortDescription": "Brand Designer",
+            "description": "Brand Designer",
+            "imageUrl": "https://static.toss.im/simplicity23/21-uss/speaker-seokyong.jpg",
+            "url": null,
+            "facebook": null,
+            "twitter": null,
+            "instagram": null,
+            "postCount": 1,
+            "ogConfig": null,
+            "seoConfig": null,
+            "priority": 1000,
+            "isDisplaying": false,
+            "isHomeRecommendation": false
+          },
+          "disclaimerConfig": null,
+          "shortDescription": "누구에게나 특별한 ‘생애 첫 카드’\n토스에는 어린이, 청소년 전용 카드가 있다는 거 알고 계셨나요? 출시된 지 1년 반도 지나지 않아 벌써 130만 장 넘게 발급되었어요. 토스 유스카드 (USS)라는 이름으로 세상에 나온 이 카드는 토스의 유저 중 틴즈 타겟, 즉 만 7세부터 만 16세까지만 이용이 가능한 충전식 선불카드",
+          "isDisplayingFeedback": true
+        },
+        {
+          "id": 22439,
+          "updatedTime": "2023-08-17T18:13:36+09:00",
+          "createdTime": "2023-08-17T17:29:52+09:00",
+          "category": null,
+          "categories": [
+            {
+              "name": "디자인",
+              "id": 353,
+              "slug": "design",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "슬랙봇 디자인 101",
+          "subtitle": "슬랙봇 디자인을 잘 하려면 무엇을 알아야하는지 알려드릴게요.",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/career-resource/slackbot101.png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": true,
+            "imageAlt": null
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/career-resource/slackbot101.png",
+            "backgroundColor": null,
+            "isFill": true,
+            "imageAlt": null
+          },
+          "key": "22439",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": true,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-08-17T17:38:00+09:00",
+          "likeCount": 0,
+          "commentBoard": null,
+          "relatedPostTitle": null,
+          "relatedPosts": [],
+          "disclaimer": null,
+          "seoConfig": {
+            "post": 22439,
+            "title": null,
+            "description": "그동안 토스팀에서 꽤 많은 슬랙봇을 만들었어요. 그러면서 좋은 슬랙봇 디자인에 대해서도 치열하게 고민했어요. 이 고민의 흔적을 나누면 업계 커뮤니티에도 도움이 될 거로 생각해서 이렇게 글을 써봅니다.제가 그동안 만들었던 봇 중 일부인데요. 업무 시간 중에 커피를 빠르게 주문하도록 슬랙에...",
+            "urlSlug": "22439",
+            "primaryKeyword": null,
+            "relatedKeywords": [],
+            "tags": []
+          },
+          "openGraph": {
+            "title": "슬랙봇 디자인 101",
+            "description": "그동안 토스팀에서 꽤 많은 슬랙봇을 만들었어요. 그러면서 좋은 슬랙봇 디자인에 대해서도 치열하게 고민했어요. 이 고민의 흔적을 나누면 업계 커뮤니티에도 도움이 될 거로 생각해서 이렇게 글을 써봅니다.제가 그동안 만들었던 봇 중 일부인데요. 업무 시간 중에 커피를 빠르게 주문하도록 슬랙에...",
+            "backgroundColor": "#424242",
+            "imageAlt": null,
+            "imageUrl": "https://static.toss.im/career-resource/slackbot101_og.png",
+            "imageType": "직접입력"
+          },
+          "relatedPostConfig": null,
+          "editor": {
+            "id": 570,
+            "name": "강영화",
+            "slug": "younghwa-kang",
+            "shortDescription": "Product Designer(Tools)",
+            "description": "_",
+            "imageUrl": "https://static.toss.im/illusts/profile-younghwa.jpeg",
+            "url": null,
+            "facebook": null,
+            "twitter": null,
+            "instagram": null,
+            "postCount": 4,
+            "ogConfig": null,
+            "seoConfig": null,
+            "priority": 1000,
+            "isDisplaying": false,
+            "isHomeRecommendation": false
+          },
+          "disclaimerConfig": null,
+          "shortDescription": "그동안 토스팀에서 꽤 많은 슬랙봇을 만들었어요. 그러면서 좋은 슬랙봇 디자인에 대해서도 치열하게 고민했어요. 이 고민의 흔적을 나누면 업계 커뮤니티에도 도움이 될 거로 생각해서 이렇게 글을 써봅니다.\n\n제가 그동안 만들었던 봇 중 일부인데요. 업무 시간 중에 커피를 빠르게 주문하도록 슬랙에서 주문하는 토스팀 사이렌오더 커",
+          "isDisplayingFeedback": true
+        }
+      ]
+    }
+  }
+]

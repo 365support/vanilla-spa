@@ -1,3 +1,5 @@
+import { navigateTo } from "./routes";
+
 export type VNode = {
   tag: JSX.Tag | JSX.Component;
   props: JSX.Props;
@@ -5,8 +7,18 @@ export type VNode = {
 };
 
 export function createDOM(node: VNode | string) {
+  if (!node) {
+    return document.createComment("Undefined node");
+  }
+
   if (typeof node === "string") {
     return document.createTextNode(node);
+  }
+
+  if (Array.isArray(node)) {
+    const fragment = document.createDocumentFragment();
+    node.map(createDOM).forEach((child) => fragment.appendChild(child));
+    return fragment;
   }
 
   if (typeof node.tag === "function") {
@@ -15,6 +27,17 @@ export function createDOM(node: VNode | string) {
   }
 
   const element = document.createElement(node.tag);
+
+  if (node.tag === "a") {
+    element.addEventListener("click", (e) => {
+      e.preventDefault();
+      const href = element.getAttribute("href");
+
+      if (typeof href === "string") {
+        navigateTo(href);
+      }
+    });
+  }
 
   Object.entries(node.props).forEach(([name, value]) => {
     const isClassAttribute = name === "className";
@@ -64,5 +87,6 @@ export function createElement(
 }
 
 export function render(vdom: VNode, container: HTMLElement) {
+  container.innerHTML = "";
   container.appendChild(createDOM(vdom));
 }

@@ -1,13 +1,14 @@
 import { VNode } from "src/render";
-import { App, Design, Detail } from "..";
+import { App } from "..";
+import { PostContent } from "../../src/components/Post/PostContent";
 
 export interface Route {
   path: string;
-  view: () => VNode;
+  view: (data: any) => VNode;
 }
 
 export const routes: Route[] = [
   { path: "/", view: App },
-  { path: "/design", view: Design },
-  { path: "/article/:slug", view: Detail },
+  { path: "/design", view: App },
+  { path: "/article/:slug", view: PostContent },
 ];

@@ -1,0 +1,1594 @@
+[
+  {
+    "id": 23563,
+    "updatedTime": "2023-11-22T20:35:45+09:00",
+    "createdTime": "2023-11-21T18:40:56+09:00",
+    "category": null,
+    "categories": [
+      {
+        "name": "기술",
+        "id": 351,
+        "slug": "tech",
+        "parentId": null,
+        "iconUrl": null
+      }
+    ],
+    "series": null,
+    "title": "Feign 코드 분석과 서버 성능 개선",
+    "subtitle": "Feign과 다중 스레드를 사용하는 과정에서 생긴 문제를 이해하고 성능 개선까지 한 경험을 공유해요.",
+    "bottomButtonConfig": {
+      "ctaType": "NONE",
+      "imageUrl": null,
+      "imageAlt": null,
+      "title": null,
+      "description": null,
+      "ctaName": null,
+      "landingUrl": null,
+      "isSearchBottomCta": false,
+      "serviceId": null,
+      "stockConfig": null,
+      "landingScheme": null,
+      "landingExternal": null
+    },
+    "coverConfig": {
+      "coverType": "IMAGE",
+      "imageUrl": "https://static.toss.im/assets/payments/contents/feign-thumb.jpg",
+      "videoUrl": null,
+      "backgroundColor": null,
+      "isFill": true,
+      "imageAlt": "여러 코드를 다루고 있는 모습"
+    },
+    "thumbnailConfig": {
+      "imageUrl": "https://static.toss.im/assets/payments/contents/feign-thumb.jpg",
+      "backgroundColor": null,
+      "isFill": true,
+      "imageAlt": "여러 코드를 다루고 있는 모습"
+    },
+    "key": "engineering-note-3",
+    "minAge": 0,
+    "isDisplaying": true,
+    "isDisplayingPublishedTime": true,
+    "workspaceId": 15,
+    "isPublished": true,
+    "publishedTime": "2023-11-22T14:30:00+09:00",
+    "likeCount": 0,
+    "commentBoard": null,
+    "relatedPostTitle": null,
+    "relatedPosts": [],
+    "disclaimer": null,
+    "seoConfig": {
+      "post": 23563,
+      "title": null,
+      "description": "Feign과 다중 스레드를 사용하는 과정에서 생긴 문제를 이해하고 성능 개선까지 한 경험을 공유해요.",
+      "urlSlug": "engineering-note-3",
+      "primaryKeyword": {
+        "id": 14007,
+        "content": "Feign",
+        "wordType": "SEO_KEYWORD"
+      },
+      "relatedKeywords": [
+        {
+          "id": 14009,
+          "content": "다중 스레드",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 14013,
+          "content": "성능 개선",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 14017,
+          "content": "HTTP Client",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 14023,
+          "content": "Keep-Alive",
+          "wordType": "SEO_KEYWORD"
+        }
+      ],
+      "tags": []
+    },
+    "openGraph": {
+      "title": "Feign 코드 분석과 서버 성능 개선",
+      "description": "Feign과 다중 스레드를 사용하는 과정에서 생긴 문제를 이해하고 성능 개선까지 한 경험을 공유해요.",
+      "backgroundColor": "#424242",
+      "imageAlt": null,
+      "imageUrl": "https://static.toss.im/assets/finance-tips/img-financetip-og2.png",
+      "imageType": "기본 이미지"
+    },
+    "relatedPostConfig": null,
+    "editor": {
+      "id": 1891,
+      "name": "김성두",
+      "slug": "sungdukim",
+      "shortDescription": null,
+      "description": "토스페이먼츠 서버 개발자",
+      "imageUrl": "https://static.toss.im/3d-emojis/u1F600.png",
+      "url": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "postCount": 1,
+      "ogConfig": null,
+      "seoConfig": null,
+      "priority": 1000,
+      "isDisplaying": false,
+      "isHomeRecommendation": false
+    },
+    "disclaimerConfig": null,
+    "shortDescription": "엔지니어링 노트 3: Feign 코드 분석과 서버 성능 개선\n엔지니어링 노트 시리즈는 토스페이먼츠 개발자들이 제품을 개발하면서 겪은 기술적 문제와 해결 방법을 직접 다룹니다. Feign과 다중 스레드를 사용하는 과정에서 생긴 문제를 이해하고 성능 개선까지 한 경험을 공유해요.\n얼마 전 토스페이먼츠 서버 모니터링 시스템을 ",
+    "isDisplayingFeedback": true
+  },
+  {
+    "id": 23345,
+    "updatedTime": "2023-11-08T10:46:06+09:00",
+    "createdTime": "2023-11-06T11:11:01+09:00",
+    "category": null,
+    "categories": [
+      {
+        "name": "기술",
+        "id": 351,
+        "slug": "tech",
+        "parentId": null,
+        "iconUrl": null
+      }
+    ],
+    "series": null,
+    "title": "null 리턴은 왜 나쁠까?",
+    "subtitle": "코드 복잡성 관리 측면에서 의미를 축약한 표현의 문제와 해결 방법을 예제로 알아봐요.",
+    "bottomButtonConfig": {
+      "ctaType": "NONE",
+      "imageUrl": null,
+      "imageAlt": null,
+      "title": null,
+      "description": null,
+      "ctaName": null,
+      "landingUrl": null,
+      "isSearchBottomCta": false,
+      "serviceId": null,
+      "stockConfig": null,
+      "landingScheme": null,
+      "landingExternal": null
+    },
+    "coverConfig": {
+      "coverType": "IMAGE",
+      "imageUrl": "https://static.toss.im/ml-illust/programmer-handling-code-box-with-highlighting-lines_20231106_111448975.png",
+      "videoUrl": null,
+      "backgroundColor": null,
+      "isFill": true,
+      "imageAlt": "개발자가 커다란 화면 옆에서 코드 살펴보고 있는 모습"
+    },
+    "thumbnailConfig": {
+      "imageUrl": "https://static.toss.im/ml-illust/_20231108_104549157.png",
+      "backgroundColor": null,
+      "isFill": true,
+      "imageAlt": "개발자가 커다란 화면 옆에서 코드 살펴보고 있는 모습"
+    },
+    "key": "engineering-note-2",
+    "minAge": 0,
+    "isDisplaying": true,
+    "isDisplayingPublishedTime": true,
+    "workspaceId": 15,
+    "isPublished": true,
+    "publishedTime": "2023-11-08T10:00:00+09:00",
+    "likeCount": 0,
+    "commentBoard": null,
+    "relatedPostTitle": null,
+    "relatedPosts": [],
+    "disclaimer": null,
+    "seoConfig": {
+      "post": 23345,
+      "title": null,
+      "description": "코드 복잡성 관리 측면에서 의미를 축약한 표현의 문제와 해결 방법을 예제로 알아봐요.",
+      "urlSlug": "engineering-note-2",
+      "primaryKeyword": {
+        "id": 13797,
+        "content": "코드복잡성",
+        "wordType": "SEO_KEYWORD"
+      },
+      "relatedKeywords": [
+        {
+          "id": 13801,
+          "content": "코드관리",
+          "wordType": "SEO_KEYWORD"
+        }
+      ],
+      "tags": []
+    },
+    "openGraph": {
+      "title": "null 리턴은 왜 나쁠까?",
+      "description": "코드 복잡성 관리 측면에서 의미를 축약한 표현의 문제와 해결 방법을 예제로 알아봐요.",
+      "backgroundColor": "#424242",
+      "imageAlt": null,
+      "imageUrl": "https://static.toss.im/ml-illust/_20231108_104549157.png",
+      "imageType": "썸네일 이미지"
+    },
+    "relatedPostConfig": null,
+    "editor": {
+      "id": 1583,
+      "name": "나재은",
+      "slug": "jaeeun-na",
+      "shortDescription": null,
+      "description": "토스페이먼츠 나재은",
+      "imageUrl": "https://static.toss.im/3d-emojis/u1F9D0.png",
+      "url": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "postCount": 1,
+      "ogConfig": null,
+      "seoConfig": null,
+      "priority": 1000,
+      "isDisplaying": false,
+      "isHomeRecommendation": false
+    },
+    "disclaimerConfig": null,
+    "shortDescription": "엔지니어링 노트 2: 코드 복잡성 관리하기\n엔지니어링 노트 시리즈는 토스페이먼츠 개발자들이 제품을 개발하면서 겪은 기술적 문제와 해결 방법을 직접 다룹니다. 두 번째로 코드 복잡성을 관리하는 방법을 소개합니다.\n\n개발자의 고객은 누구라고 생각하시나요? 우리 제품을 사용하는 사용자(End-user)죠. 그런데 또 다른 고객",
+    "isDisplayingFeedback": true
+  },
+  {
+    "id": 22999,
+    "updatedTime": "2023-11-06T11:06:01+09:00",
+    "createdTime": "2023-10-25T10:32:50+09:00",
+    "category": null,
+    "categories": [
+      {
+        "name": "기술",
+        "id": 351,
+        "slug": "tech",
+        "parentId": null,
+        "iconUrl": null
+      },
+      {
+        "name": "프론트엔드",
+        "id": 352,
+        "slug": "frontend",
+        "parentId": null,
+        "iconUrl": null
+      }
+    ],
+    "series": null,
+    "title": "웹에서 복잡한 퍼널 쉽게 관리하기",
+    "subtitle": "토스페이먼츠 프론트엔드 챕터에서 웹에서 퍼널을 손쉽게 관리하기 위해 했던 고민과 해결 방법을 공유해요.",
+    "bottomButtonConfig": {
+      "ctaType": "NONE",
+      "imageUrl": "",
+      "imageAlt": null,
+      "title": "이런 문제 해결에 관심이 있다면",
+      "description": null,
+      "ctaName": "프론트엔드 챕터 합류하기",
+      "landingUrl": "https://toss.im/career/job-detail?job_id=4071101003&company=%ED%86%A0%EC%8A%A4%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0",
+      "isSearchBottomCta": false,
+      "serviceId": null,
+      "stockConfig": null,
+      "landingScheme": "supertoss://web?url=https%3A%2F%2Ftoss.im%2Fcareer%2Fjob-detail%3Fjob_id%3D4071101003%26company%3D%25ED%2586%25A0%25EC%258A%25A4%25ED%258E%2598%25EC%259D%25B4%25EB%25A8%25BC%25EC%25B8%25A0&external=true&clearHistory=true&swipeRefresh=true",
+      "landingExternal": "https://toss.im/career/job-detail?job_id=4071101003&company=%ED%86%A0%EC%8A%A4%ED%8E%98%EC%9D%B4%EB%A8%BC%EC%B8%A0"
+    },
+    "coverConfig": {
+      "coverType": "IMAGE",
+      "imageUrl": "https://static.toss.im/assets/payments/contents/engineering_thumb.jpg",
+      "videoUrl": null,
+      "backgroundColor": null,
+      "isFill": true,
+      "imageAlt": "사람이 점들을 연결하고 있는 모습"
+    },
+    "thumbnailConfig": {
+      "imageUrl": "https://static.toss.im/assets/payments/contents/engineering_thumb.jpg",
+      "backgroundColor": null,
+      "isFill": true,
+      "imageAlt": "사람이 점들을 연결하고 있는 모습"
+    },
+    "key": "engineering-note-1",
+    "minAge": 0,
+    "isDisplaying": true,
+    "isDisplayingPublishedTime": true,
+    "workspaceId": 15,
+    "isPublished": true,
+    "publishedTime": "2023-10-18T09:00:00+09:00",
+    "likeCount": 0,
+    "commentBoard": null,
+    "relatedPostTitle": null,
+    "relatedPosts": [],
+    "disclaimer": null,
+    "seoConfig": {
+      "post": 22999,
+      "title": null,
+      "description": "토스페이먼츠 프론트엔드 챕터에서 웹에서 퍼널을 손쉽게 관리하기 위해 했던 고민과 해결 방법을 공유해요.",
+      "urlSlug": "engineering-note-1",
+      "primaryKeyword": {
+        "id": 3882,
+        "content": "프론트엔드",
+        "wordType": "SEO_KEYWORD"
+      },
+      "relatedKeywords": [
+        {
+          "id": 3529,
+          "content": "토스페이먼츠",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 13506,
+          "content": "퍼널",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 13508,
+          "content": "웹브라우저",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 13510,
+          "content": "결제 흐름",
+          "wordType": "SEO_KEYWORD"
+        }
+      ],
+      "tags": []
+    },
+    "openGraph": {
+      "title": "엔지니어링 노트 1: 웹에서 복잡한 퍼널 쉽게 관리하기",
+      "description": "토스페이먼츠 프론트엔드 챕터에서 웹에서 퍼널을 손쉽게 관리하기 위해 했던 고민과 해결 방법을 공유해요.",
+      "backgroundColor": "#424242",
+      "imageAlt": null,
+      "imageUrl": "https://static.toss.im/assets/payments/contents/engineering_thumb.jpg",
+      "imageType": "직접입력"
+    },
+    "relatedPostConfig": null,
+    "editor": {
+      "id": 1271,
+      "name": "임재후/최수민",
+      "slug": "smile-emoji",
+      "shortDescription": null,
+      "description": "토스페이먼츠 임재후, 최수민",
+      "imageUrl": "https://static.toss.im/3d-emojis/u1F600.png",
+      "url": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "postCount": 1,
+      "ogConfig": null,
+      "seoConfig": null,
+      "priority": 1000,
+      "isDisplaying": false,
+      "isHomeRecommendation": false
+    },
+    "disclaimerConfig": null,
+    "shortDescription": "엔지니어링 노트 1: 복잡한 퍼널 쉽게 관리하기\n\n엔지니어링 노트 시리즈는 토스페이먼츠 개발자들이 제품을 개발하면서 겪은 기술적 문제와 해결 방법을 직접 다룹니다. 첫 번째는 프론트엔드 이야기인데요. 웹에서 퍼널을 손쉽게 관리할 수 있도록 만든 모듈을 소개합니다.\n토스 제품 디자인 원칙(PP: Product Princip",
+    "isDisplayingFeedback": true
+  },
+  {
+    "id": 22911,
+    "updatedTime": "2023-10-12T20:30:27+09:00",
+    "createdTime": "2023-10-12T20:05:46+09:00",
+    "category": null,
+    "categories": [
+      {
+        "name": "기술",
+        "id": 351,
+        "slug": "tech",
+        "parentId": null,
+        "iconUrl": null
+      }
+    ],
+    "series": null,
+    "title": "유연하고 안전하게 배포 Pipeline 운영하기",
+    "subtitle": "생산성, 안정성, 보안성을 모두 달성하기 위해선 ‘Pipeline’을 어떻게 설정해야 할까요?\n다양하고 복잡한 토스뱅크의 배포 ‘Pipeline’를 안전하게 운영하기 위한 노력을 소개합니다.",
+    "bottomButtonConfig": {
+      "ctaType": "NONE",
+      "imageUrl": null,
+      "imageAlt": null,
+      "title": null,
+      "description": null,
+      "ctaName": null,
+      "landingUrl": null,
+      "isSearchBottomCta": false,
+      "serviceId": null,
+      "stockConfig": null,
+      "landingScheme": null,
+      "landingExternal": null
+    },
+    "coverConfig": {
+      "coverType": "IMAGE",
+      "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_06_김동석.png",
+      "videoUrl": null,
+      "backgroundColor": null,
+      "isFill": false,
+      "imageAlt": null
+    },
+    "thumbnailConfig": {
+      "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_06_김동석.png",
+      "backgroundColor": null,
+      "isFill": false,
+      "imageAlt": null
+    },
+    "key": "slash23-devops",
+    "minAge": 0,
+    "isDisplaying": true,
+    "isDisplayingPublishedTime": true,
+    "workspaceId": 15,
+    "isPublished": true,
+    "publishedTime": "2023-10-12T20:30:00+09:00",
+    "likeCount": 0,
+    "commentBoard": null,
+    "relatedPostTitle": null,
+    "relatedPosts": [],
+    "disclaimer": null,
+    "seoConfig": {
+      "post": 22911,
+      "title": null,
+      "description": "생산성, 안정성, 보안성을 모두 달성하기 위해선 ‘Pipeline’을 어떻게 설정해야 할까요?\n다양하고 복잡한 토스뱅크의 배포 ‘Pipeline’를 안전하게 운영하기 위한 노력을 소개합니다.",
+      "urlSlug": "slash23-devops",
+      "primaryKeyword": {
+        "id": 11972,
+        "content": "SLASH23",
+        "wordType": "SEO_KEYWORD"
+      },
+      "relatedKeywords": [
+        {
+          "id": 3847,
+          "content": "토스 개발자",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 3934,
+          "content": "토스 개발 컨퍼런스",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 11953,
+          "content": "devops",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 13455,
+          "content": "파이프라인",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 13456,
+          "content": "자동화",
+          "wordType": "SEO_KEYWORD"
+        }
+      ],
+      "tags": []
+    },
+    "openGraph": {
+      "title": "유연하고 안전하게 배포 Pipeline 운영하기",
+      "description": "생산성, 안정성, 보안성을 모두 달성하기 위해선 ‘Pipeline’을 어떻게 설정해야 할까요?\n다양하고 복잡한 토스뱅크의 배포 ‘Pipeline’를 안전하게 운영하기 위한 노력을 소개합니다.",
+      "backgroundColor": "#424242",
+      "imageAlt": null,
+      "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_og_06_김동석.png",
+      "imageType": "직접입력"
+    },
+    "relatedPostConfig": {
+      "id": 3312,
+      "relatedPosts": [
+        {
+          "id": 22910,
+          "updatedTime": "2023-10-12T19:52:42+09:00",
+          "createdTime": "2023-10-12T19:10:45+09:00",
+          "categories": [
+            {
+              "name": "기술",
+              "id": 351,
+              "slug": "tech",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "토스는 Gateway 이렇게 씁니다",
+          "subtitle": "더 안전하고 안정적인 서비스 운영을 위해서 ‘gateway’를 어떻게 사용해야 할까요? \n토스의 수많은 마이크로서비스 로직을 공통화하기 위한 gateway 운영 방법에 대해 소개합니다.",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_05_최준우.png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_05_최준우.png",
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "key": "slash23-server",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": true,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-10-12T19:52:00+09:00",
+          "commentBoard": null,
+          "disclaimer": null
+        },
+        {
+          "id": 22896,
+          "updatedTime": "2023-10-12T16:05:36+09:00",
+          "createdTime": "2023-10-11T18:25:48+09:00",
+          "categories": [
+            {
+              "name": "기술",
+              "id": 351,
+              "slug": "tech",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "대규모 로그 처리도 OK! Elasticsearch 클러스터 개선기",
+          "subtitle": "일평균 56억 건 이상 수집되는 토스증권의 로그, 어떻게 효율적으로 처리할까요?\n큰 폭으로 늘어나는 대규모 로그 처리를 위한 ‘Elasticsearch 클러스터 개선 경험’을 소개합니다.",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_04_%EC%9D%B4%EC%A4%80%ED%99%98.png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_04_%EC%9D%B4%EC%A4%80%ED%99%98.png",
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "key": "slash23-data",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": true,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-10-12T16:03:00+09:00",
+          "commentBoard": null,
+          "disclaimer": null
+        },
+        {
+          "id": 22565,
+          "updatedTime": "2023-10-11T16:38:50+09:00",
+          "createdTime": "2023-09-01T12:10:36+09:00",
+          "categories": [
+            {
+              "name": "기술",
+              "id": 351,
+              "slug": "tech",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "금융사 최초의 Zero Trust 아키텍처 도입기",
+          "subtitle": "왜 보안이 강화될수록, 업무는 불편해지는 걸까요? \n금융에서 가장 중요한 가치인 ‘안전’과 혁신을 위한 ‘업무 편의성’, 두 마리 토끼를 모두 잡기 위한 여정을 소개합니다.  ",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_03%20(1).png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_03%20(1).png",
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "key": "slash23-security",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": true,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-09-01T11:59:00+09:00",
+          "commentBoard": null,
+          "disclaimer": null
+        },
+        {
+          "id": 22563,
+          "updatedTime": "2023-10-11T17:04:28+09:00",
+          "createdTime": "2023-08-31T23:16:00+09:00",
+          "categories": [
+            {
+              "name": "기술",
+              "id": 351,
+              "slug": "tech",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "은행 최초 코어뱅킹 MSA 전환기 (feat. 지금 이자 받기)",
+          "subtitle": "수십 년간 정체되어 있던 전통적인 은행 시스템의 모놀리식 소프트웨어 아키텍처를 MSA로 전환할 수 있을까요? \n토스뱅크의 ‘코어뱅킹 MSA 전환’ 사례를 통해 향후 은행 시스템이 나아가야 할 방향을 소개합니다.",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_02.png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_02.png",
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "key": "slash23-corebanking",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": true,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-08-31T23:37:00+09:00",
+          "commentBoard": null,
+          "disclaimer": null
+        },
+        {
+          "id": 22478,
+          "updatedTime": "2023-10-11T17:03:23+09:00",
+          "createdTime": "2023-08-22T17:10:44+09:00",
+          "categories": [
+            {
+              "name": "기술",
+              "id": 351,
+              "slug": "tech",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "레고처럼 조립하는 토스 앱",
+          "subtitle": "수많은 서비스를 담고 있는 대규모 iOS 앱에 어울리는 아키텍처는 무엇일까요?\n프로젝트 간의 의존성과 모듈 간의 결합도를 낮춰, 더 효율적인 서비스 개발, 관리를 이뤄낸 과정을 소개합니다. ",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/assets/toss-tech/slash_juneseokbeomgun_thumb.png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/assets/toss-tech/slash_juneseokbeomgun_thumb.png",
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "key": "slash23-iOS",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": true,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-08-22T17:46:00+09:00",
+          "commentBoard": null,
+          "disclaimer": null
+        }
+      ],
+      "title": "함께 읽어보면 좋을 콘텐츠"
+    },
+    "editor": {
+      "id": 1022,
+      "name": "김동석",
+      "slug": "dongsuk-kim",
+      "shortDescription": "DevOps Engineer",
+      "description": "-",
+      "imageUrl": "https://static.toss.im/career-resource/dongsuk-kim.png",
+      "url": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "postCount": 1,
+      "ogConfig": null,
+      "seoConfig": null,
+      "priority": 1000,
+      "isDisplaying": false,
+      "isHomeRecommendation": false
+    },
+    "disclaimerConfig": null,
+    "shortDescription": "토스뱅크에는 400개가 넘는 배포 Pipeline 이 있습니다. Pipeline의 개수가 많아지고, 종류가 다양해지고, 동작이 복잡해지며 여러 어려움이 생기는데요. 토스뱅크에서 Pipeline을 유연하고 안전하게 운영하기 위해 노력한 이야기를 소개해 보려 합니다.\nPipeline이란?\n반복하는 일을 자동화하는 시스템을 말",
+    "isDisplayingFeedback": true
+  },
+  {
+    "id": 22910,
+    "updatedTime": "2023-10-12T19:52:42+09:00",
+    "createdTime": "2023-10-12T19:10:45+09:00",
+    "category": null,
+    "categories": [
+      {
+        "name": "기술",
+        "id": 351,
+        "slug": "tech",
+        "parentId": null,
+        "iconUrl": null
+      }
+    ],
+    "series": null,
+    "title": "토스는 Gateway 이렇게 씁니다",
+    "subtitle": "더 안전하고 안정적인 서비스 운영을 위해서 ‘gateway’를 어떻게 사용해야 할까요? \n토스의 수많은 마이크로서비스 로직을 공통화하기 위한 gateway 운영 방법에 대해 소개합니다.",
+    "bottomButtonConfig": {
+      "ctaType": "NONE",
+      "imageUrl": null,
+      "imageAlt": null,
+      "title": null,
+      "description": null,
+      "ctaName": null,
+      "landingUrl": null,
+      "isSearchBottomCta": false,
+      "serviceId": null,
+      "stockConfig": null,
+      "landingScheme": null,
+      "landingExternal": null
+    },
+    "coverConfig": {
+      "coverType": "IMAGE",
+      "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_05_최준우.png",
+      "videoUrl": null,
+      "backgroundColor": null,
+      "isFill": false,
+      "imageAlt": null
+    },
+    "thumbnailConfig": {
+      "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_05_최준우.png",
+      "backgroundColor": null,
+      "isFill": false,
+      "imageAlt": null
+    },
+    "key": "slash23-server",
+    "minAge": 0,
+    "isDisplaying": true,
+    "isDisplayingPublishedTime": true,
+    "workspaceId": 15,
+    "isPublished": true,
+    "publishedTime": "2023-10-12T19:52:00+09:00",
+    "likeCount": 0,
+    "commentBoard": null,
+    "relatedPostTitle": null,
+    "relatedPosts": [],
+    "disclaimer": null,
+    "seoConfig": {
+      "post": 22910,
+      "title": null,
+      "description": "더 안전하고 안정적인 서비스 운영을 위해서 ‘gateway’를 어떻게 사용해야 할까요? \n토스의 수많은 마이크로서비스 로직을 공통화하기 위한 gateway 운영 방법에 대해 소개합니다.",
+      "urlSlug": "slash23-server",
+      "primaryKeyword": {
+        "id": 11972,
+        "content": "SLASH23",
+        "wordType": "SEO_KEYWORD"
+      },
+      "relatedKeywords": [
+        {
+          "id": 3744,
+          "content": "토스 서버 개발자",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 3847,
+          "content": "토스 개발자",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 4100,
+          "content": "서버 개발자",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 13452,
+          "content": "Gateway",
+          "wordType": "SEO_KEYWORD"
+        }
+      ],
+      "tags": []
+    },
+    "openGraph": {
+      "title": "토스는 Gateway 이렇게 씁니다",
+      "description": "더 안전하고 안정적인 서비스 운영을 위해서 ‘gateway’를 어떻게 사용해야 할까요? \n토스의 수많은 마이크로서비스 로직을 공통화하기 위한 gateway 운영 방법에 대해 소개합니다.",
+      "backgroundColor": "#424242",
+      "imageAlt": null,
+      "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_og_05_최준우.png",
+      "imageType": "직접입력"
+    },
+    "relatedPostConfig": {
+      "id": 3311,
+      "relatedPosts": [
+        {
+          "id": 22896,
+          "updatedTime": "2023-10-12T16:05:36+09:00",
+          "createdTime": "2023-10-11T18:25:48+09:00",
+          "categories": [
+            {
+              "name": "기술",
+              "id": 351,
+              "slug": "tech",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "대규모 로그 처리도 OK! Elasticsearch 클러스터 개선기",
+          "subtitle": "일평균 56억 건 이상 수집되는 토스증권의 로그, 어떻게 효율적으로 처리할까요?\n큰 폭으로 늘어나는 대규모 로그 처리를 위한 ‘Elasticsearch 클러스터 개선 경험’을 소개합니다.",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_04_%EC%9D%B4%EC%A4%80%ED%99%98.png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_04_%EC%9D%B4%EC%A4%80%ED%99%98.png",
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "key": "slash23-data",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": true,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-10-12T16:03:00+09:00",
+          "commentBoard": null,
+          "disclaimer": null
+        },
+        {
+          "id": 22565,
+          "updatedTime": "2023-10-11T16:38:50+09:00",
+          "createdTime": "2023-09-01T12:10:36+09:00",
+          "categories": [
+            {
+              "name": "기술",
+              "id": 351,
+              "slug": "tech",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "금융사 최초의 Zero Trust 아키텍처 도입기",
+          "subtitle": "왜 보안이 강화될수록, 업무는 불편해지는 걸까요? \n금융에서 가장 중요한 가치인 ‘안전’과 혁신을 위한 ‘업무 편의성’, 두 마리 토끼를 모두 잡기 위한 여정을 소개합니다.  ",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_03%20(1).png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_03%20(1).png",
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "key": "slash23-security",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": true,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-09-01T11:59:00+09:00",
+          "commentBoard": null,
+          "disclaimer": null
+        },
+        {
+          "id": 22563,
+          "updatedTime": "2023-10-11T17:04:28+09:00",
+          "createdTime": "2023-08-31T23:16:00+09:00",
+          "categories": [
+            {
+              "name": "기술",
+              "id": 351,
+              "slug": "tech",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "은행 최초 코어뱅킹 MSA 전환기 (feat. 지금 이자 받기)",
+          "subtitle": "수십 년간 정체되어 있던 전통적인 은행 시스템의 모놀리식 소프트웨어 아키텍처를 MSA로 전환할 수 있을까요? \n토스뱅크의 ‘코어뱅킹 MSA 전환’ 사례를 통해 향후 은행 시스템이 나아가야 할 방향을 소개합니다.",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_02.png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_02.png",
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "key": "slash23-corebanking",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": true,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-08-31T23:37:00+09:00",
+          "commentBoard": null,
+          "disclaimer": null
+        },
+        {
+          "id": 22478,
+          "updatedTime": "2023-10-11T17:03:23+09:00",
+          "createdTime": "2023-08-22T17:10:44+09:00",
+          "categories": [
+            {
+              "name": "기술",
+              "id": 351,
+              "slug": "tech",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "레고처럼 조립하는 토스 앱",
+          "subtitle": "수많은 서비스를 담고 있는 대규모 iOS 앱에 어울리는 아키텍처는 무엇일까요?\n프로젝트 간의 의존성과 모듈 간의 결합도를 낮춰, 더 효율적인 서비스 개발, 관리를 이뤄낸 과정을 소개합니다. ",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/assets/toss-tech/slash_juneseokbeomgun_thumb.png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/assets/toss-tech/slash_juneseokbeomgun_thumb.png",
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "key": "slash23-iOS",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": true,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-08-22T17:46:00+09:00",
+          "commentBoard": null,
+          "disclaimer": null
+        }
+      ],
+      "title": "함께 읽어보면 좋을 콘텐츠"
+    },
+    "editor": {
+      "id": 1189,
+      "name": "최준우",
+      "slug": "junwoo-choi",
+      "shortDescription": "Server Developer",
+      "description": "-",
+      "imageUrl": "https://static.toss.im/career-resource/junwoo_choi.png",
+      "url": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "postCount": 1,
+      "ogConfig": null,
+      "seoConfig": null,
+      "priority": 1000,
+      "isDisplaying": false,
+      "isHomeRecommendation": false
+    },
+    "disclaimerConfig": null,
+    "shortDescription": "안녕하세요. 토스에서 Gateway를 개발하고 있는 서버플랫폼팀 최준우입니다. \n토스에서는 목적에 맞는 다양한 Gateway를 사용하고 있는데요. 저는 이번 글에서 이러한 Gateway 아키텍처를 통해 토스가 누리고 있는 장점들과 이를 위해 어떠한 노력을 하고 있는지에 대해 간단히 소개하려고 합니다.\nGateway 란?\n",
+    "isDisplayingFeedback": true
+  },
+  {
+    "id": 22896,
+    "updatedTime": "2023-10-12T16:05:36+09:00",
+    "createdTime": "2023-10-11T18:25:48+09:00",
+    "category": null,
+    "categories": [
+      {
+        "name": "기술",
+        "id": 351,
+        "slug": "tech",
+        "parentId": null,
+        "iconUrl": null
+      }
+    ],
+    "series": null,
+    "title": "대규모 로그 처리도 OK! Elasticsearch 클러스터 개선기",
+    "subtitle": "일평균 56억 건 이상 수집되는 토스증권의 로그, 어떻게 효율적으로 처리할까요?\n큰 폭으로 늘어나는 대규모 로그 처리를 위한 ‘Elasticsearch 클러스터 개선 경험’을 소개합니다.",
+    "bottomButtonConfig": {
+      "ctaType": "NONE",
+      "imageUrl": null,
+      "imageAlt": null,
+      "title": null,
+      "description": null,
+      "ctaName": null,
+      "landingUrl": null,
+      "isSearchBottomCta": false,
+      "serviceId": null,
+      "stockConfig": null,
+      "landingScheme": null,
+      "landingExternal": null
+    },
+    "coverConfig": {
+      "coverType": "IMAGE",
+      "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_04_%EC%9D%B4%EC%A4%80%ED%99%98.png",
+      "videoUrl": null,
+      "backgroundColor": null,
+      "isFill": false,
+      "imageAlt": null
+    },
+    "thumbnailConfig": {
+      "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_04_%EC%9D%B4%EC%A4%80%ED%99%98.png",
+      "backgroundColor": null,
+      "isFill": false,
+      "imageAlt": null
+    },
+    "key": "slash23-data",
+    "minAge": 0,
+    "isDisplaying": true,
+    "isDisplayingPublishedTime": true,
+    "workspaceId": 15,
+    "isPublished": true,
+    "publishedTime": "2023-10-12T16:03:00+09:00",
+    "likeCount": 0,
+    "commentBoard": null,
+    "relatedPostTitle": null,
+    "relatedPosts": [],
+    "disclaimer": null,
+    "seoConfig": {
+      "post": 22896,
+      "title": null,
+      "description": "일평균 56억 건 이상 수집되는 토스증권의 로그, 어떻게 효율적으로 처리할까요?\n큰 폭으로 늘어나는 대규모 로그 처리를 위한 ‘Elasticsearch 클러스터 개선 경험’을 소개합니다.",
+      "urlSlug": "slash23-data",
+      "primaryKeyword": {
+        "id": 11972,
+        "content": "SLASH23",
+        "wordType": "SEO_KEYWORD"
+      },
+      "relatedKeywords": [
+        {
+          "id": 3847,
+          "content": "토스 개발자",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 3934,
+          "content": "토스 개발 컨퍼런스",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 4116,
+          "content": "데이터",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 13448,
+          "content": "Elasticsearch",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 13450,
+          "content": "온프레미스",
+          "wordType": "SEO_KEYWORD"
+        }
+      ],
+      "tags": []
+    },
+    "openGraph": {
+      "title": "대규모 로그 처리도 OK! Elasticsearch 클러스터 개선기",
+      "description": "일평균 56억 건 이상 수집되는 토스증권의 로그, 어떻게 효율적으로 처리할까요?\n큰 폭으로 늘어나는 대규모 로그 처리를 위한 ‘Elasticsearch 클러스터 개선 경험’을 소개합니다.",
+      "backgroundColor": "#424242",
+      "imageAlt": null,
+      "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_og_04_이준환.png",
+      "imageType": "직접입력"
+    },
+    "relatedPostConfig": {
+      "id": 3310,
+      "relatedPosts": [
+        {
+          "id": 22565,
+          "updatedTime": "2023-10-11T16:38:50+09:00",
+          "createdTime": "2023-09-01T12:10:36+09:00",
+          "categories": [
+            {
+              "name": "기술",
+              "id": 351,
+              "slug": "tech",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "금융사 최초의 Zero Trust 아키텍처 도입기",
+          "subtitle": "왜 보안이 강화될수록, 업무는 불편해지는 걸까요? \n금융에서 가장 중요한 가치인 ‘안전’과 혁신을 위한 ‘업무 편의성’, 두 마리 토끼를 모두 잡기 위한 여정을 소개합니다.  ",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_03%20(1).png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_03%20(1).png",
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "key": "slash23-security",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": true,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-09-01T11:59:00+09:00",
+          "commentBoard": null,
+          "disclaimer": null
+        },
+        {
+          "id": 22563,
+          "updatedTime": "2023-10-11T17:04:28+09:00",
+          "createdTime": "2023-08-31T23:16:00+09:00",
+          "categories": [
+            {
+              "name": "기술",
+              "id": 351,
+              "slug": "tech",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "은행 최초 코어뱅킹 MSA 전환기 (feat. 지금 이자 받기)",
+          "subtitle": "수십 년간 정체되어 있던 전통적인 은행 시스템의 모놀리식 소프트웨어 아키텍처를 MSA로 전환할 수 있을까요? \n토스뱅크의 ‘코어뱅킹 MSA 전환’ 사례를 통해 향후 은행 시스템이 나아가야 할 방향을 소개합니다.",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_02.png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/career-resource/techblog_slash23_thumb_02.png",
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "key": "slash23-corebanking",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": true,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-08-31T23:37:00+09:00",
+          "commentBoard": null,
+          "disclaimer": null
+        },
+        {
+          "id": 22478,
+          "updatedTime": "2023-10-11T17:03:23+09:00",
+          "createdTime": "2023-08-22T17:10:44+09:00",
+          "categories": [
+            {
+              "name": "기술",
+              "id": 351,
+              "slug": "tech",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "레고처럼 조립하는 토스 앱",
+          "subtitle": "수많은 서비스를 담고 있는 대규모 iOS 앱에 어울리는 아키텍처는 무엇일까요?\n프로젝트 간의 의존성과 모듈 간의 결합도를 낮춰, 더 효율적인 서비스 개발, 관리를 이뤄낸 과정을 소개합니다. ",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/assets/toss-tech/slash_juneseokbeomgun_thumb.png",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/assets/toss-tech/slash_juneseokbeomgun_thumb.png",
+            "backgroundColor": null,
+            "isFill": false,
+            "imageAlt": null
+          },
+          "key": "slash23-iOS",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": true,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-08-22T17:46:00+09:00",
+          "commentBoard": null,
+          "disclaimer": null
+        }
+      ],
+      "title": "함께 읽어보면 좋을 콘텐츠"
+    },
+    "editor": {
+      "id": 1187,
+      "name": "이준환",
+      "slug": "junhwan-lee",
+      "shortDescription": "Data Engineer",
+      "description": "-",
+      "imageUrl": "https://static.toss.im/career-resource/junhwan_lee.png",
+      "url": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "postCount": 1,
+      "ogConfig": null,
+      "seoConfig": null,
+      "priority": 1000,
+      "isDisplaying": false,
+      "isHomeRecommendation": false
+    },
+    "disclaimerConfig": null,
+    "shortDescription": "로그 수집 현황\n토스증권이 운영하는 서비스와 인프라에서는 매일 수많은 로그들이 생성되고 있고, 이를 Elasticsearch 클러스터로 수집하여 로그를 검색하고 분석하고 있습니다. 이러한 로그들은 약 100여 개의 로그 파이프라인을 통해 하루 기준으로 22테라 바이트, 약 170억 건의 로그를 인덱싱하고 있는데요, 서비스",
+    "isDisplayingFeedback": true
+  },
+  {
+    "id": 22885,
+    "updatedTime": "2023-10-11T12:08:04+09:00",
+    "createdTime": "2023-10-11T11:15:45+09:00",
+    "category": null,
+    "categories": [
+      {
+        "name": "기술",
+        "id": 351,
+        "slug": "tech",
+        "parentId": null,
+        "iconUrl": null
+      },
+      {
+        "name": "프론트엔드",
+        "id": 352,
+        "slug": "frontend",
+        "parentId": null,
+        "iconUrl": null
+      }
+    ],
+    "series": null,
+    "title": "프론트엔드 다이빙클럽에서 만나는 아고라: 다른 회사에선 테스트 코드 어떻게 짜요?",
+    "subtitle": "‘프론트엔드 테스팅’을 주제로 진행된 프론트엔드 다이빙 클럽의 네번째 모임을 공유합니다.",
+    "bottomButtonConfig": {
+      "ctaType": "NONE",
+      "imageUrl": null,
+      "imageAlt": null,
+      "title": null,
+      "description": null,
+      "ctaName": null,
+      "landingUrl": null,
+      "isSearchBottomCta": false,
+      "serviceId": null,
+      "stockConfig": null,
+      "landingScheme": null,
+      "landingExternal": null
+    },
+    "coverConfig": {
+      "coverType": "IMAGE",
+      "imageUrl": "https://static.toss.im/ml-illust/img-people-check-outfut.jpg",
+      "videoUrl": null,
+      "backgroundColor": null,
+      "isFill": false,
+      "imageAlt": null
+    },
+    "thumbnailConfig": {
+      "imageUrl": "https://static.toss.im/ml-illust/img-people-check-outfut.jpg",
+      "backgroundColor": null,
+      "isFill": false,
+      "imageAlt": null
+    },
+    "key": "frontend-diving-club-agora",
+    "minAge": 0,
+    "isDisplaying": true,
+    "isDisplayingPublishedTime": true,
+    "workspaceId": 15,
+    "isPublished": true,
+    "publishedTime": "2023-10-11T11:39:00+09:00",
+    "likeCount": 0,
+    "commentBoard": null,
+    "relatedPostTitle": null,
+    "relatedPosts": [],
+    "disclaimer": null,
+    "seoConfig": {
+      "post": 22885,
+      "title": null,
+      "description": "‘프론트엔드 테스팅’을 주제로 진행된 프론트엔드 다이빙 클럽의 네번째 모임을 공유합니다.",
+      "urlSlug": "frontend-diving-club-agora",
+      "primaryKeyword": {
+        "id": 11756,
+        "content": "토스프론트엔드",
+        "wordType": "SEO_KEYWORD"
+      },
+      "relatedKeywords": [
+        {
+          "id": 3882,
+          "content": "프론트엔드",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 3928,
+          "content": "개발자 컨퍼런스",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 12165,
+          "content": "프론트엔드개발자",
+          "wordType": "SEO_KEYWORD"
+        },
+        {
+          "id": 13392,
+          "content": "프론트엔드 테스팅",
+          "wordType": "SEO_KEYWORD"
+        }
+      ],
+      "tags": []
+    },
+    "openGraph": {
+      "title": "프론트엔드 다이빙클럽에서 만나는 아고라: 다른 회사에선 테스트 코드 어떻게 짜요?",
+      "description": "‘프론트엔드 테스팅’을 주제로 진행된 프론트엔드 다이빙 클럽의 네번째 모임을 공유합니다.",
+      "backgroundColor": "#424242",
+      "imageAlt": null,
+      "imageUrl": "https://static.toss.im/ml-illust/img-people-check-outfut.jpg",
+      "imageType": "썸네일 이미지"
+    },
+    "relatedPostConfig": {
+      "id": 3300,
+      "relatedPosts": [
+        {
+          "id": 22217,
+          "updatedTime": "2023-08-22T19:07:30+09:00",
+          "createdTime": "2023-07-19T22:56:27+09:00",
+          "categories": [
+            {
+              "name": "기술",
+              "id": 351,
+              "slug": "tech",
+              "parentId": null,
+              "iconUrl": null
+            },
+            {
+              "name": "프론트엔드",
+              "id": 352,
+              "slug": "frontend",
+              "parentId": null,
+              "iconUrl": null
+            }
+          ],
+          "series": null,
+          "title": "놀러오세요! 프론트엔드 다이빙 클럽",
+          "subtitle": "프론트엔드에 관한 깊은 이야기를 나눌 수 있는 오프라인 커뮤니티, 프론트엔드 다이빙 클럽을 소개합니다.",
+          "bottomButtonConfig": {
+            "ctaType": "NONE",
+            "imageUrl": null,
+            "imageAlt": null,
+            "title": null,
+            "description": null,
+            "ctaName": null,
+            "landingUrl": null,
+            "isSearchBottomCta": false,
+            "serviceId": null,
+            "stockConfig": null,
+            "landingScheme": null,
+            "landingExternal": null
+          },
+          "coverConfig": {
+            "coverType": "IMAGE",
+            "imageUrl": "https://static.toss.im/assets/toss-tech/frontend-diving-club.jpg",
+            "videoUrl": null,
+            "backgroundColor": null,
+            "isFill": true,
+            "imageAlt": "대화하는 사람들 일러스트레이션"
+          },
+          "thumbnailConfig": {
+            "imageUrl": "https://static.toss.im/assets/toss-tech/frontend-diving-club.jpg",
+            "backgroundColor": null,
+            "isFill": true,
+            "imageAlt": "대화하는 사람들 일러스트레이션"
+          },
+          "key": "frontend-diving-club",
+          "minAge": 0,
+          "isDisplaying": true,
+          "isDisplayingPublishedTime": true,
+          "workspaceId": 15,
+          "isPublished": true,
+          "publishedTime": "2023-07-21T13:47:00+09:00",
+          "commentBoard": null,
+          "disclaimer": null
+        }
+      ],
+      "title": "함께 읽어보면 좋을 콘텐츠"
+    },
+    "editor": {
+      "id": 1184,
+      "name": "서현석",
+      "slug": "hyunseok-seo",
+      "shortDescription": "Frontend Developer",
+      "description": "-",
+      "imageUrl": "https://static.toss.im/career-resource/image%20(48).png",
+      "url": null,
+      "facebook": null,
+      "twitter": null,
+      "instagram": null,
+      "postCount": 1,
+      "ogConfig": null,
+      "seoConfig": null,
+      "priority": 1000,
+      "isDisplaying": false,
+      "isHomeRecommendation": false
+    },
+    "disclaimerConfig": null,
+    "shortDescription": "안녕하세요. 토스증권 프론트엔드 개발자 서현석입니다.\n여러분은 ‘아고라(agora)’라는 단어를 들으면 어떤 뜻이 가장 먼저 떠오르시나요? 어원으로 거슬러 올라가면 그리스 도시국가(폴리스)에서 시민들이 자유롭게 토론을 벌이던 장소이자 고대 그리스어로는 ἀγορά, 즉 열린 공간, 광장을 뜻합니다. 아고라에서는 그리스의 정",
+    "isDisplayingFeedback": true
+  }
+]
