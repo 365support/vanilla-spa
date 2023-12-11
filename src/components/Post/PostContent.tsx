@@ -1,30 +1,30 @@
 /* @jsx createElement */
-import { createElement, render } from "../../render";
+import { createElement } from "../../render";
 import { getArticleDetail } from "../../api/article";
-import { useParams } from "../../routes";
+import { useLocation, useParams } from "../../routes";
 import { Header } from "../Layout/Header";
+import { renderUI } from "../..";
 
-let globalState = {
-  testData: null,
-  content: null,
+type GlobalState = Record<string, null | any>;
+
+const globalState: GlobalState = {
+  "/": null,
+  tech: null,
+  design: null,
 };
 
-function renderApp() {
-  const rootElement = document.getElementById("root");
-  if (!rootElement) return;
-  render(<PostContent content={globalState.content} />, rootElement);
-}
-
-export const PostContent = (props) => {
+export const PostContent = () => {
+  const location = useLocation();
+  const currentPath = location.pathname.replace(/^\//, "");
   const { slug } = useParams();
 
-  const content = props?.content;
+  const content = globalState[currentPath];
 
-  if (!globalState.content) {
+  if (!content) {
     getArticleDetail(slug)
       .then((posts) => {
-        globalState.content = posts;
-        renderApp();
+        globalState[currentPath] = posts;
+        renderUI(<PostContent />);
       })
       .catch((error) => {
         console.error("Error fetching data: ", error);
@@ -34,7 +34,7 @@ export const PostContent = (props) => {
   return (
     <section>
       <Header />
-      {content?.success.data.map((item) => {
+      {content?.success.data.map((item: any) => {
         return <li key={item.id}>{item.id}</li>;
       })}
     </section>
