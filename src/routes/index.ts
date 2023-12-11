@@ -1,6 +1,4 @@
-/* @jsx createElement */
-import { NotFound } from "..";
-import { VNode, createElement, render } from "../render";
+import { VNode, render } from "../render";
 import { Route, routes } from "./routes";
 import { isEnglish, isSamePath } from "@utils";
 
@@ -53,7 +51,7 @@ const findMatchedRouteAndParams = (routes: Route[]) => {
   return null;
 };
 
-const renderView = (view: () => VNode, container: HTMLElement) => {
+const renderView = (view: (data?: any) => VNode, container: HTMLElement) => {
   container.innerHTML = "";
   render(view(), container);
 };
@@ -67,7 +65,10 @@ export const router = () => {
     return renderView(matched.route.view, rootElement);
   }
 
-  renderView(NotFound, rootElement);
+  const errorRoute = routes.find((route) => route.path === "/error");
+  if (errorRoute) {
+    return renderView(errorRoute.view, rootElement);
+  }
 };
 
 export const useParams = () => {
