@@ -14,6 +14,7 @@
     "paths": {
       "@utils": ["src/utils"],
       "@constants": ["src/constants"],
+      "@components/*": ["src/components/*"],
       "@data": ["public/data"]
     }
   },
