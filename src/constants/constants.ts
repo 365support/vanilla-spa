@@ -8,16 +8,6 @@ export const API_URL: ApiUrl = {
 };
 
 export const API_MOCK: ApiUrl = {
-  ARTICLES: "/articles",
-  ARTICLE_DETAIL: `/article/:articleSlug`,
+  ARTICLES: `${BASE_URL}/articles`,
+  ARTICLE_DETAIL: `${BASE_URL}/article/:articleSlug`,
 };
-
-const combineBaseUrlWithApiPaths = (baseUrl: string, apiUrl: ApiUrl) => {
-  return Object.entries(apiUrl).reduce((acc: ApiUrl, [key, value]) => {
-    acc[key] = `${baseUrl}${value}`;
-    return acc;
-  }, {});
-};
-
-export const FULL_API_URL = combineBaseUrlWithApiPaths(BASE_URL, API_URL);
-export const FULL_MOCK_API_URL = combineBaseUrlWithApiPaths(BASE_URL, API_MOCK);
