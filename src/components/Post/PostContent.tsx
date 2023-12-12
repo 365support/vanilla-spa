@@ -1,9 +1,9 @@
 /* @jsx createElement */
-import { createElement } from "../../render";
+import { createElement } from "@react/render";
 import { getArticleDetail } from "../../api/article";
-import { useLocation, useParams } from "../../routes";
 import { Header } from "../Layout/Header";
 import { renderUI } from "../..";
+import { useLocation, useParams } from "@react-router-dom/index";
 
 type GlobalState = Record<string, null | any>;
 

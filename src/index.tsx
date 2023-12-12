@@ -1,6 +1,6 @@
 /* @jsx createElement */
-import { VNode, createElement, render } from "./render";
-import { useLocation } from "./routes";
+import { VNode, render, createElement } from "@react/render";
+import { useLocation } from "@react-router-dom/index";
 import { getArticles } from "./api/article";
 import { removeFirstSlash } from "@utils";
 import { Header } from "@components/Layout/Header";

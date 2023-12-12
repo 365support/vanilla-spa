@@ -1,4 +1,4 @@
-import { VNode } from "src/render";
+import { VNode } from "@react/render";
 import { App } from "..";
 import { PostContent } from "@components/Post/PostContent";
 import { Error } from "@components/Error";
