@@ -1,5 +1,3 @@
-import { navigateTo } from "./routes";
-
 export type VNode = {
   tag: JSX.Tag | JSX.Component;
   props: JSX.Props;
@@ -27,17 +25,6 @@ export function createDOM(node: VNode | string) {
   }
 
   const element = document.createElement(node.tag);
-
-  if (node.tag === "a") {
-    element.addEventListener("click", (e) => {
-      e.preventDefault();
-      const href = element.getAttribute("href");
-
-      if (typeof href === "string") {
-        navigateTo(href);
-      }
-    });
-  }
 
   Object.entries(node.props).forEach(([name, value]) => {
     const isClassAttribute = name === "className";

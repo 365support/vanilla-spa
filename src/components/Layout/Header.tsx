@@ -1,15 +1,12 @@
 /* @jsx createElement */
-import { createElement } from "../../render";
+import { createElement } from "@react/render";
+import { Link } from "@react-router-dom/Link";
 
 export const Header = () => {
   return (
     <nav className="nav">
-      <a href="/" className="nav__link" data-link>
-        tech
-      </a>
-      <a href="/design" className="nav__link" data-link>
-        design
-      </a>
+      <Link to="/tech">tech</Link>
+      <Link to="/design">design</Link>
     </nav>
   );
 };

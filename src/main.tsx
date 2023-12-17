@@ -1,13 +1,15 @@
 /* @jsx createElement */
-import { createElement } from "./render";
-import { addLinkEventListeners, router } from "./routes";
+import { createElement } from "@react/render";
+import { addLinkEventListeners } from "@react-router-dom/index";
+import { renderViewComponent } from "@react-router-dom/Link";
 const { worker } = require("./mock/browser");
 
 const initializeApp = () => {
   worker.start();
-  addLinkEventListeners();
-  window.addEventListener("popstate", router);
-  router();
+  addLinkEventListeners(renderViewComponent);
+  window.addEventListener("popstate", renderViewComponent);
+
+  renderViewComponent();
 };
 
 document.addEventListener("DOMContentLoaded", initializeApp);

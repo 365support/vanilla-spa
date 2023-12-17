@@ -1,9 +1,10 @@
 /* @jsx createElement */
-import { createElement } from "../../render";
+import { createElement } from "@react/render";
+import { Link } from "@react-router-dom/Link";
 
 export const PostCard = (data: any) => {
   return (
-    <a href={`/article/${data.post.key}`}>
+    <Link to={`/article/${data.post.key}`}>
       <article>
         <img
           src={data.post.thumbnailConfig.imageUrl}
@@ -16,6 +17,6 @@ export const PostCard = (data: any) => {
           <p>{data.post.subtitle}</p>
         </div>
       </article>
-    </a>
+    </Link>
   );
 };

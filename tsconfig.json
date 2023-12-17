@@ -14,8 +14,17 @@
     "paths": {
       "@utils": ["src/utils"],
       "@constants": ["src/constants"],
+      "@components/*": ["src/components/*"],
+      "@react/*": ["react/*"],
+      "@react-router-dom/*": ["react-router-dom/*"],
       "@data": ["public/data"]
     }
   },
-  "include": ["./src/**/*", "./global.d.ts"]
+  "include": [
+    "./src/**/*",
+    "./global.d.ts",
+    "react/render.ts",
+    "src/reactRouterDom",
+    "react-router-dom/index.ts"
+  ]
 }

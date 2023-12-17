@@ -1,5 +1,5 @@
 /* @jsx createElement */
-import { createElement } from "../../render";
+import { createElement } from "@react/render";
 import { PostCard } from "./PostCard";
 
 export const PostsList = ({ posts }: any) => {

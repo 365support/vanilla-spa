@@ -1,14 +1,11 @@
-/* @jsx createElement */
-import { NotFound } from "..";
-import { VNode, createElement, render } from "../render";
-import { Route, routes } from "./routes";
+import { Route, routes } from "../src/routes/routes";
 import { isEnglish, isSamePath } from "@utils";
 
 interface Params {
   [key: string]: string;
 }
 
-export const navigateTo = (url: string) => {
+export const navigateTo = (url: string, callback: () => void) => {
   const samePath = isSamePath(location.pathname, url);
 
   if (samePath) {
@@ -17,7 +14,22 @@ export const navigateTo = (url: string) => {
     history.pushState(null, "", url);
   }
 
-  router();
+  callback();
+};
+
+export const addLinkEventListeners = (callback: () => void) => {
+  const links = document.querySelectorAll("a");
+
+  links.forEach((link) => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      const href = link.getAttribute("href");
+
+      if (typeof href === "string") {
+        navigateTo(href, callback);
+      }
+    });
+  });
 };
 
 const findMatchedRouteAndParams = (routes: Route[]) => {
@@ -53,21 +65,16 @@ const findMatchedRouteAndParams = (routes: Route[]) => {
   return null;
 };
 
-const renderView = (view: () => VNode, container: HTMLElement) => {
-  container.innerHTML = "";
-  render(view(), container);
-};
-
 export const router = () => {
-  const rootElement = document.getElementById("root");
-  if (!rootElement) return;
-
   const matched = findMatchedRouteAndParams(routes);
   if (matched) {
-    return renderView(matched.route.view, rootElement);
+    return matched.route.view;
   }
 
-  renderView(NotFound, rootElement);
+  const errorRoute = routes.find((route) => route.path === "/error");
+  if (errorRoute) {
+    return errorRoute.view;
+  }
 };
 
 export const useParams = () => {
@@ -84,19 +91,4 @@ export const useLocation = () => {
     pathname: window.location.pathname,
     params: matched.params,
   };
-};
-
-export const addLinkEventListeners = () => {
-  const links = document.querySelectorAll("a");
-
-  links.forEach((link) => {
-    link.addEventListener("click", (e) => {
-      e.preventDefault();
-      const href = link.getAttribute("href");
-
-      if (typeof href === "string") {
-        navigateTo(href);
-      }
-    });
-  });
 };
