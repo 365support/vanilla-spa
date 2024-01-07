@@ -26,12 +26,16 @@ msw를 사용해 API Mocking을 구현했습니다.
 ## 👩‍💻 개발 과정에서의 고민
 
 [1. html 렌더링 (어떻게 추상화 해야 편하게 렌더링 할 수 있을까?)](https://github.com/365support/vanilla-spa/wiki/1.-HTML-%EB%A0%8C%EB%8D%94%EB%A7%81) </br>
+
 [2. 새로고침없는 라우팅 처리 (History API, Hash Router 어떤 걸 사용할까?)
 ](https://github.com/365support/vanilla-spa/wiki/2.-%EC%83%88%EB%A1%9C%EA%B3%A0%EC%B9%A8%EC%97%86%EB%8A%94-%EB%9D%BC%EC%9A%B0%ED%8C%85)</br>
+
 [3. api 요청 (api 없이 사용 할 수 있는 방법은?)
 ](https://github.com/365support/vanilla-spa/wiki/3.-api-%EC%9A%94%EC%B2%AD)</br>
+
 [4. 리렌더링 (좋은 설계란 뭘까?)
 ](https://github.com/365support/vanilla-spa/wiki/4.-%EB%A6%AC%EB%A0%8C%EB%8D%94%EB%A7%81)</br>
+
 [5. 폴더 구조, 결합도 낮추기 (기능들을 라이브러리로 배포한다면..?)](https://github.com/365support/vanilla-spa/wiki/5.-%ED%8F%B4%EB%8D%94%EA%B5%AC%EC%A1%B0--%E2%80%A2-%EA%B2%B0%ED%95%A9%EB%8F%84-%EB%82%AE%EC%B6%94%EA%B8%B0)
 
 
